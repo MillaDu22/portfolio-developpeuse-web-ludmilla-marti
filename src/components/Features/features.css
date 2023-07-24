@@ -1,0 +1,30 @@
+.container-icons {
+    background:linear-gradient(45deg, lightgrey, white);
+    position: relative;
+    top:30px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:90%;
+    height:100px;
+}
+i {
+    width: 128px;
+    font-size:96px;
+}
+.fa-html5 {
+    color:orange;
+}
+.fa-css3 {
+    color:blue;
+}
+.fa-sass {
+    color:purple;
+}
+.fa-js {
+    color:yellow;
+}
+.fa-react {
+    color:aqua;
+}

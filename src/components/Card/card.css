@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap');
+
+.card-wrapper {
+    width: 30%;
+    height:250px;
+    border:1px solid black;
+    border-radius: 2px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.143);
+}
+.link-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+    width:100%;
+    text-decoration: none;
+    background:white;
+}
+.card {
+    width:100%;
+    height:80%;
+}
+.description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    top:100%;
+    bottom:0px;
+    background:linear-gradient(15deg, rgba(149, 2, 149, 0.82), lightgrey);
+    font-family:"Cormorant";
+    color:white;
+    height:25%;
+    width:100%;
+}
+.content-titre {
+    position: relative;
+    left:7px;
+    top:7px;
+    line-height: 15px;
+    font-size:15px;
+}
+.content-text {
+    position: relative;
+    bottom:10px;
+    left:7px;
+    font-size:12px;
+    line-height: 12px;
+}

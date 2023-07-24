@@ -1,0 +1,23 @@
+.container-btns {
+    width:85%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-filtre {
+    background:linear-gradient(15deg, rgba(149, 2, 149, 0.82), lightgrey);
+    box-shadow: 4px 3px 2px 1px rgba(0, 0, 0, 0.103);
+    color: white;
+    border-radius:5px;
+    border:none;
+    position: relative;
+    margin-bottom:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:5%;
+    padding-right:5%;
+}
+.btn-filtre:hover {
+    background:linear-gradient(15deg, rgb(149, 2, 149), lightgrey);
+    color:black;
+}
