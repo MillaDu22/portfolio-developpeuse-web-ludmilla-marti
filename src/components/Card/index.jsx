@@ -1,17 +1,18 @@
-import "./card.css";
+import "./card.scss";
 import {Link} from "react-router-dom"
-function Card (){
+function Card  ({id, cover, title, informations}){
     return (
-        <div className="card-wrapper">
-            <Link className= "link-card" to="/projet">
+        <main>
+            <Link className= "link-card" to={ `/projet/${id}`}>
                 <div className = "card">
-                    <span className="description">
-                        <p className="content-titre">Titre projet</p>
-                        <p className="content-text">Description</p>
-                    </span>
+                    <img src={cover} alt = "coverCard" className="coverCard"/>
+                    <div className="card-content">
+                        <h3 className = "titreCard">{ title }</h3>
+                        <p className ="informations">{ informations }Informations</p>
+                    </div>
                 </div>
             </Link>
-        </div>
+        </main>
     )
 }
 export default Card;

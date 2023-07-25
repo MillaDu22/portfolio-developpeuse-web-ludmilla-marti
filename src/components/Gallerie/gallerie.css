@@ -19,14 +19,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    padding-top:30px;
     padding-left:2%;
     padding-right:2%;
     background:linear-gradient(45deg, white, lightgrey);
     border-radius: 5px;
     width: 86%;
-    height:600px;
-}
-.galleryCard:hover {
-    background:linear-gradient(45deg, lightgrey, white);
+    height:615px;
 }

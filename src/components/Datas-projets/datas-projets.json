@@ -1,0 +1,64 @@
+
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"informations": "",
+		"description": "Implementation d'un site web de locations appartements basé sur Marseille",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"],
+		"description": "Implementation d'un site web de locations appartements basé sur Marseille",
+		"equipements": ["desktop", "tablette", "mobile"],
+		"Tags": ["Html", "css"]
+	},
+	{
+		"id": "2",
+		"title": "Ohmyfood!",
+		"informations": "",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"],
+		"description": "Implémentation d'un site de reastauration en mobile first avec des animations scss",
+		"equipements": ["Mobile first", "Desktop"],
+		"Tags": ["Html", "sass"]
+	},
+	{
+		"id": "3",
+		"title": "Architecte Sophie Bluel",
+		"informations": "",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg"],
+		"description": "Récupération, ajout, et suppression des travaux de l'architecte via l'API", 
+		"equipements": ["Desktop", "mobile"],
+		"Tags": ["html", "css", "javascript"]
+	},
+	{
+		"id": "4",
+		"title": "Photographe Nina Carducci",
+		"informations": "",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg"],
+		"description":"Optimisation du site photographe",
+		"equipements": ["SEO", "Accessibilité", "Bonnes pratiques", "Performances", "desktop", "mobile"],
+		"Tags": ["html", "css", "javascript"]
+	},
+	{
+		"id": "5",
+		"title": "Kasa",
+		"informations": "",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg"],
+		"description": "Implementation d'un site immobilier avec le framework javascript react",
+		"equipements": ["Desktop", "Mobile"],
+		"Tags": ["javascript", "react", "react-router"]
+	},
+	{
+		"id": "6",
+		"title": "Argent-Bank",
+		"informations": "",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg"],
+		"description": "Application REACT ",
+		"equipements": ["desktop", "mobile"],
+		"Tags": ["axios", "redux", "react", "javascript", "react-router"]
+	}
+]

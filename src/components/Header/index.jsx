@@ -8,7 +8,7 @@ function Header() {
         <header className="header">
         <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
             <nav className="nav">
-                <Link className="nav_item" to="/a-propos">
+                <Link className="nav_item" to="/a-propos-page">
                     <p className="nav_item_text">A propos</p>
                 </Link>
                 <Link className="nav_item" to="/cv">
