@@ -15,7 +15,8 @@ function Gallerie () {
                             key= { datasProjet.id }
                             id = { datasProjet.id } 
                             title = { datasProjet.title }
-                            cover = { datasProjet.cover }  />
+                            cover = { datasProjet.cover } 
+                            informations = { datasProjet.informations } />
                         )
                     })}
                 </div>

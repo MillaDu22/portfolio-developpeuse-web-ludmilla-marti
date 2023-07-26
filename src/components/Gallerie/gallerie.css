@@ -19,12 +19,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     padding-top:30px;
     padding-left:2%;
     padding-right:2%;
-    background:linear-gradient(45deg, white, lightgrey);
+    /*background:linear-gradient(45deg, white, lightgrey);*/
     border-radius: 5px;
-    width: 86%;
-    height:615px;
+    width: 60%;
+    height:450px;
 }

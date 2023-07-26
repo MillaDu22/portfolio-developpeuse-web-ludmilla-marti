@@ -2,11 +2,11 @@ import InfoProjet from '../../InfoProjet/index';
 import './projet.css';
 
 
-function LogementPage() {
+function ProjetPage() {
     return (
-        <div className= "logementPage">
+        <div className= "projet-page">
         <InfoProjet />
         </div>
     )
 }
-export default LogementPage
+export default ProjetPage;

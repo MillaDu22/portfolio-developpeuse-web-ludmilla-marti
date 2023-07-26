@@ -3,9 +3,9 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"informations": "",
+		"informations": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"description": "Implementation d'un site web de locations appartements basé sur Marseille",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"cover":  "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"],
 		"description": "Implementation d'un site web de locations appartements basé sur Marseille",
 		"equipements": ["desktop", "tablette", "mobile"],
@@ -14,7 +14,7 @@
 	{
 		"id": "2",
 		"title": "Ohmyfood!",
-		"informations": "",
+		"informations": "Amélioration de l'interface d'un site mobile avec des animations CSS",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"],
 		"description": "Implémentation d'un site de reastauration en mobile first avec des animations scss",
@@ -24,7 +24,7 @@
 	{
 		"id": "3",
 		"title": "Architecte Sophie Bluel",
-		"informations": "",
+		"informations": "Création d'une page web dynamique avec JavaScript",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg"],
 		"description": "Récupération, ajout, et suppression des travaux de l'architecte via l'API", 
@@ -34,7 +34,7 @@
 	{
 		"id": "4",
 		"title": "Photographe Nina Carducci",
-		"informations": "",
+		"informations": "Optimisez le référencement d'un site de photographe",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg"],
 		"description":"Optimisation du site photographe",
@@ -44,7 +44,7 @@
 	{
 		"id": "5",
 		"title": "Kasa",
-		"informations": "",
+		"informations": "Création d'une application web de location immobilière avec React",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg"],
 		"description": "Implementation d'un site immobilier avec le framework javascript react",
@@ -54,7 +54,7 @@
 	{
 		"id": "6",
 		"title": "Argent-Bank",
-		"informations": "",
+		"informations": "Implémentation du front-end d'une application bancaire avec",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 		"photos": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg"],
 		"description": "Application REACT ",

@@ -8,8 +8,8 @@ main {
   font-family: 'Cormorant', sans-serif;
 }
 .link-card {
-  width: 20rem;
-  height: 17rem;
+  width: 15rem;
+  height: 12rem;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
@@ -38,6 +38,7 @@ main {
     margin: 0;
     transition: inset .3s .3s ease-out;
     font-family: 'Cormorant';
+    font-size: 17px;
     text-align: center;
     font-weight: 500;
     color: purple;
@@ -46,16 +47,24 @@ main {
   .informations {
     position: absolute;
     opacity: 0;
-    max-width: 100%;
+    max-width: 90%;
     transition: opacity .3s ease-out;
     color: purple;
+    font-family: 'Cormorant';
+    font-size: 17px ;
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+    height:50px;
+    background:rgba(211, 211, 211, 0.197);
   }
+
   .informations {
-    inset: auto auto 80px 10px;
+    inset: auto auto 80px 0px;
   }
   
   &:hover .titreCard {
-    inset: auto auto 220px 10px;
+    inset: auto auto 150px 10px;
     transition: inset .3s ease-out;
     color: purple;
     font-weight: 700;
@@ -66,6 +75,7 @@ main {
     width:100%;
     transition: opacity .5s .1s ease-in;
     font-weight: 300;
+    font-size: 17px;
   }
   
   &:hover .coverCard {

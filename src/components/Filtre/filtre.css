@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap');
 .container-btns {
-    width:85%;
+    width:45%;
     display:flex;
     flex-direction: row;
+    padding-top:15px;
     justify-content: space-between;
 }
 .btn-filtre {
     background:linear-gradient(15deg, rgba(149, 2, 149, 0.82), lightgrey);
     box-shadow: 4px 3px 2px 1px rgba(0, 0, 0, 0.103);
     color: white;
-    border-radius:5px;
+    border-radius:5px 0px 5px 0px;
     border:none;
     position: relative;
     margin-bottom:2%;
