@@ -4,7 +4,7 @@ import {useParams} from "react-router-dom";
 import datasProjets from '../Datas-projets/datas-projets.json';
 import Tag from '../Tag/index';
 import Collapse from '../../components/Collapse/index.jsx';
-//import Slider from '../Slider/index';
+import Slider from '../../components/Slider/index';
 
 const InfoProjet = () => {
     const id = useParams(); 
@@ -25,7 +25,7 @@ const InfoProjet = () => {
         {ficheProjet ? (
             <div className= 'info-projet-box'>
                 <h2 className ="title">{ ficheProjet?.title }</h2>
-                {/*<Slider images = {ficheProjet?.photos}/>*/}
+                <Slider images = {ficheProjet?.photos}/>
                 <div className=" container-mots-cles">{TagsProjets}</div>
                 <div className="info-projet">
                     <span className="back-info-projet">

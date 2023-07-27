@@ -1,11 +1,11 @@
 import "./banner.css";
-import Img from "../../assets/img/FB_IMG_1690363536869.jpg";
+import Tof from "../../assets/img/FB_IMG_1690363536869.jpg";
 
 function Banner () {
     return(
         <div className="banner">
             <span className="tof">
-            <img src = {Img} alt="profil" className="image-banner" />
+            <img src = {Tof} alt="profil" className="profil-banner" />
             </span>
             <div className="about-me">
                 <h3 className= "welcome">Bienvenue sur mon portfolio !</h3>

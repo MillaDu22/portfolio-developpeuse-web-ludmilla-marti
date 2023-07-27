@@ -23,7 +23,7 @@ main {
 
   .coverCard {
     position: absolute;
-    object-fit: cover;
+    object-fit:contain;
     width: 100%;
     height: 100%;
     top: 0;
@@ -33,8 +33,12 @@ main {
   }
 
   .titreCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    inset: auto auto 10px 10px;
+    inset: auto auto 0px 0px;
     margin: 0;
     transition: inset .3s .3s ease-out;
     font-family: 'Cormorant';
@@ -42,6 +46,9 @@ main {
     text-align: center;
     font-weight: 500;
     color: purple;
+    background: rgba(211, 211, 211, 0.868);
+    width:100%;
+    height: 40px;
   }
   
   .informations {
@@ -55,8 +62,9 @@ main {
     width:90%;
     padding-left:5%;
     padding-right:5%;
-    height:50px;
-    background:rgba(211, 211, 211, 0.197);
+    padding-bottom:5px;
+    min-height:56px;
+    background:rgba(211, 211, 211, 0.868);
   }
 
   .informations {
@@ -64,7 +72,7 @@ main {
   }
   
   &:hover .titreCard {
-    inset: auto auto 150px 10px;
+    inset: auto auto 153px 0px;
     transition: inset .3s ease-out;
     color: purple;
     font-weight: 700;
