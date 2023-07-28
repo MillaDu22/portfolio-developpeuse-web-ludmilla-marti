@@ -25,29 +25,26 @@ const CvPage =() => {
                 <div className="email">marti.ludmilla@orange.fr</div>
                 <span className ="separation"></span>
                 <div className="titre-aside">compétences</div>
-                <div className="competences">- Html5</div>
-                <div className="competences">- Css3</div>
-                <div className ="competences">- JavaScript</div>
+                <div className="competences">- Html5/css3/JS</div>
+                <div className="competences">- Sass</div>
+                <div className ="competences">- NodeJS</div>
                 <div className="competences">- React</div>
                 <div className="competences">- PhotoShop</div>
                 <div className="competences">- LightRoom</div>
-                <div className="competences">- Bureautique</div>
+                <div className="competences">- Word/excel/powerPoint</div>
                 <span className ="separation"></span>
                 <div className="titre-aside">langues</div>
                 <div className="langues">Français " courant "</div>
                 <div className="langues">Anglais " intermédiaire "</div>
             </div>
-            <div className="profile">
+            <div className= "section-cv">
                 <h2 className="h2-profil">PROFIL</h2>
                 <p className="p-profile">Passionnée par le milieu de l'informatique et particulièrement
                     sensible au langage JavaScript et au web-design, j'ai décidé de me reconvertir dans le développement web
                     via OpenClassRooms après 23 ans passés dans le secteur de la sécurité privée.
                 </p>
                 <span className ="separate"></span>
-            </div>
-            <div className= "section-cv">
                 <h2 className="parcours">PARCOURS PROFESSIONNEL</h2>
-                <h3 className="h3-section-cv">Fin 2022 à aujourd'hui, reconversion en cours avec OPENCLASSROOMS</h3>
                 <h3 className="h3-section-cv">2007 à  fin 2022, Agent de sécurité en CDI pour SECURITAS FRANCE SARL(BREST)</h3>
                 <p className= "info-parcours">· Intervention sur zone en cas de déclenchement d'alarme, 
                     vérification des lieux et des systèmes, déclenchement d'alerte selon la procédure, 

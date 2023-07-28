@@ -24,8 +24,15 @@
     padding-top:30px;
     padding-left:2%;
     padding-right:2%;
-    /*background:linear-gradient(45deg, white, lightgrey);*/
     border-radius: 5px;
     width: 60%;
     height:450px;
+}
+@media  screen and (max-width:768px) {
+    .galleryCard {
+        width:100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height:auto;
+    }
 }

@@ -28,3 +28,15 @@ i {
 .fa-react {
     color:aqua;
 }
+@media screen and (max-width:768px) {
+    .container-icons {
+        width:100%;
+        height:50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    i {
+        font-size:24px;
+    }
+}

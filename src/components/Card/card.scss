@@ -96,3 +96,14 @@ main {
 .material-symbols-outlined {
   vertical-align: middle;
 }
+@media screen and (max-width:768px) {
+  main {
+    width:100%;
+    flex-direction: column;
+  }
+  .link-card {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+  }
+}

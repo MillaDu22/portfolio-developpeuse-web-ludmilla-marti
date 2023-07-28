@@ -32,8 +32,24 @@
 .about-me {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 5px;
     width: 60%;
     height:80%;
+}
+.txt-welcome, .txt-visit, .welcome {
+    position:relative;
+    margin: 0px;
+}
+@media screen and (max-width:768px) {
+    .banner {
+        flex-direction:column;
+        height:500px;
+        width:100%;
+        padding-top: 10%;
+        position: relative;
+        margin-top:0px;
+        border-radius: 0px;;
+       
+    }
 }

@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column ;
     justify-content:flex-start;
-    height:1410px;
     width:100%;
-    background: url("/src//assets//img/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.jpg")
+    background: darkgrey;
 }
 .tour-cv {
-    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     margin-left:auto;
     margin-right: auto;
-    width:60%;
-    height:100%;
+    width:59%;
     background: white;
 }
 .top-cv {
@@ -27,7 +27,7 @@
 }
 .tour-img {
     position: relative;
-    left:100px;
+    left:15%;
     width:120px;
     height:120px;
     border-radius: 50%;
@@ -39,11 +39,12 @@
     height: 100%;
     object-fit: cover;
 }
+
 .en-tete {
     font-family: 'Cormorant';
     position: relative;
-    right:200px;
-    width:200px;
+    right:21%;
+    width:36%;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -51,33 +52,36 @@
 .name {
     position: relative;
     margin-top:0px;
+    margin-bottom: 10px;
     height:25px;
     font-size: 25px;
     line-height: 25px;
 }
 .age, .fonction {
     position: relative;
-    margin-top: 0px;
+    margin-top: 8px;
+    margin-bottom: 7px;
     height: 18px;
     font-size: 18px;
     line-height: 18px;
 }
 .aside {
-    padding-top: 40px;
-    padding-bottom: 40px;
     width:22%;
-    height:1179px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-family: 'Cormorant';
     color:black;
     background:linear-gradient(45deg, pink, darkgrey)
 }
 .titre-aside {
+    width:94%;
     position: relative;
     margin-top:20px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    margin-left: auto ;
+    margin-right: auto ;
     font-size: 18px;
     line-height: 18px;
     text-decoration: underline;
@@ -85,41 +89,38 @@
 }
 .separation {
     position:relative;
-    margin-top:5px;
-    margin-bottom: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width:94%;
     height:2px;
     background: white;
 }
 .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
+    width:94%;
     font-family: 'Cormorant';
     font-size:15px;
     position: relative;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    padding:0px;
 }
 .adress-ville{
     text-transform: uppercase;
 }
-.profile {
-    border-top:1px solid black;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    position: absolute;
-    padding-left: 4%;
-    padding-right: 4%;
-    right:0px;
-    top:150px;
-    width:70%;
-    font-family: 'Cormorant';
-    font-size: 15px;
-}
+
 .h2-profil {
+    position:relative;
+    margin-bottom: 6px;
     font-family: 'Cormorant';
-    font-size:20px;
+    font-size:18px;
     text-decoration: underline;
+}
+.p-profile {
+    position:relative;
+    margin-top:0px;
 }
 .separate {
     width:100%;
@@ -127,37 +128,126 @@
     border:1px solid black;
 }
 .section-cv {
-    position: absolute;
-    top:300px;
+    position: relative;
+    margin-bottom:0px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    position: absolute;
+    position: relative;
     padding-left: 4%;
     padding-right: 4%;
-    right:0px;
-    width:70%;
+    width:69%;
     font-family: 'Cormorant';
     text-align: left;
     font-size: 15px;
 }
 .parcours, .formations {
+    position:relative;
+    margin-bottom: 3px;
     text-decoration: underline;
     font-family: 'Cormorant';
-    font-size: 20px;
+    font-size: 18px;
 }
 .h3-section-cv {
+    position: relative;
+    margin-top:1%;
+    margin-bottom: 2%;
     font-family: 'Cormorant';
     color:blue;
     font-size: 18px;
     font-weight: 200;
     line-height:15px;
 }
+.info-parcours {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
 .h3-section-form {
+    position: relative;
+    margin-top:1%;
+    margin-bottom: 2%;
     font-family: 'Cormorant';
     color: green;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 200;
     line-height:15px;
+}
+
+@media screen and (max-width:768px) {
+    .tour-cv {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .top-cv {
+        width:100%;
+        padding: 0;
+        margin: 0;
+        height:250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tour-img {
+        left:auto;
+        right: auto;
+    }
+    .en-tete {
+        top:2%;
+        left: auto;
+        right:auto;
+        width:36%;
+    }
+    .name {
+        position: relative;
+        margin-top:2%;
+        margin-bottom: 7%;
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .age, .fonction {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .aside {
+        flex-direction: column;
+        width:100%;
+    }
+    .titre-aside {
+        font-size: 18px;
+        text-align: center;
+    }
+    .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
+        font-size:15px;
+        text-align: center;
+    }
+    .profile {
+        font-size: 18px;
+    }
+    .h2-profil {
+        font-size:18px;
+    }
+    .section-cv {
+        width:91.4%;
+    }
+    .parcours, .formations {
+        font-size: 18px;
+    }
+    .info-parcours{
+        font-size: 15px;
+    }
+    .h3-section-cv {
+        font-size: 15px;
+        font-weight: 100;
+        line-height:15px;
+    }
+    .h3-section-form {
+        font-size: 15px;
+        line-height:15px;
+    }
+
+
 }
