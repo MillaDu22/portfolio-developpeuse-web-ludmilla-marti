@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap');
 .header {
     background:linear-gradient(45deg, black, lightgrey);
-    padding-left:5%;
-    padding-right:5%;
-    width:90%;
+    padding-left:4%;
+    padding-right:4%;
+    width:92%;
     height:100px;
     display:flex;
     flex-direction: row;
@@ -35,19 +35,34 @@
     align-items: center;
     justify-content: space-between;
 }
-.nav_item {
+
+.nav_item1, .nav_item2, .nav_item3 {
     position:relative;
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
-    width:50%;
 }
-.nav_item:hover {
+.nav_item3 {
+    width:15%;
+}
+.nav_item2 {
+    width:56%;
+}
+.nav_item1 {
+    width: 25%;
+}
+.nav_item1:hover, .nav_item2:hover, .nav_item3:hover {
     text-decoration: underline black;
 }
-.nav_item_text {
+.nav_item_text2, .nav_item_text1, .nav_item_text3 {
     font-family: "Cormorant";
     color:black;
     font-size: 15px;
-    width:60px;
-
+    width:50px;
+    text-align: center;
+}
+.nav_item_text2 {
+    width: 107px;
+}
+.nav_item_text3{
+    width:28px;
 }
