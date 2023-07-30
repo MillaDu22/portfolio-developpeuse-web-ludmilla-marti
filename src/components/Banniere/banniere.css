@@ -26,3 +26,13 @@
     font-size: 19px;
 
 }
+.fa-linkedin {
+    font-size:30px;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .txt-banniere{
+        width:100%;
+        text-align: left;
+    }
+}

@@ -5,27 +5,41 @@ import './collapse.css';
 
 
 
-const Collapse =({title, content}) => { 
+const Collapse =({content}) => { 
     const [isOpen , setIsOpen] = useState(false);/*état du toggle par défaut*/
     const display = () => {
     setIsOpen(!isOpen);
     };
     return(
-        <div className="wrapInfo vrap" >
-            <input type="checkbox" id="collapse" className="toggleInfo" />
-            <label htmlFor="collapse" className="labelToggleInfo">
-                <p className=" labelTitleInfo" onClick ={display}>{title}
-                    {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
-                    (<img src={chevron} className="chevron-down"alt="down"/>)}
-                </p>
-            </label>
-            <div className ="textInfo">
-                <div className="textInnerInfo">
-                    {isOpen &&  Array.isArray(content) === false && <div className="pTextInfo">{content}</div>}
-                    {isOpen &&  Array.isArray(content) === true && <div className="pTextInfo">{content}</div>}
+        <section>
+            <div className="wrapInfo vrap" >
+                <input type="checkbox" id="collapse" className="toggleInfo" />
+                <label htmlFor="collapse" className="labelToggleInfo">
+                    <p className=" labelTitleInfo" onClick ={display}>Les projets de mon parcours intégratrice web
+                        {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
+                        (<img src={chevron} className="chevron-down"alt="down"/>)}
+                    </p>
+                </label>
+                <div className ="textInfo">
+                    <div className="textInnerInfo">
+                        {isOpen &&  Array.isArray(content) === false && <div className ="p-text-info">
+                            <ul className="projets">
+                                <li className ="projet"> - Le projet Riding Cities: Mes premiers pas vers le langage HTML.</li>
+                                <li className ="projet"> - Le projet Booki: Création de la page d'accueil d'une agence de voyage avec HTML & CSS.</li>
+                                <li className ="projet"> - Le projet Ohmyfood: Implémentation et amélioration de l'interface du site mobile avec des animations css.</li>
+                                <li className ="projet"> - Le projet Print-It: Mes premiers pas vers le langage JavaScript.</li>
+                                <li className ="projet"> - Le projet Architecte Sophie Bluel: Création d'une page xeb dynamique avec JavaScript.</li>
+                                <li className ="projet"> - Le projet Menu by qwerta: Planification du développement du site de mon client.</li>
+                                <li className ="projet"> - Le projet kasa: Création d'une application web de location immobilière avec React.</li>
+                                <li className ="projet"> - Le projet Photographe Nina Carducci: Optimisation du référencement.</li>
+                                <li className ="projet"> - Le projet 77events: Débuggage du site le l'agence d'évènementiel.</li>
+                                <li className ="projet"> - Le projet Argent-Bank: Implémentation du front-end de l'application bancaire avec React.</li>
+                            </ul>
+                        </div>}
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Collapse;

@@ -5,25 +5,34 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width:100%;
+    width:90%;
+    padding-left: 5%;
+    padding-right:5%;
 }
+
 .title {
     font-family: 'Tangerine';
     font-size: 30px;
     font-weight:700;
     text-align: center;
 }
+
+.display-row {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .container-mots-cles {
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top:15px;
-    padding-bottom:55px;
 }
 .info-projet {
-    width:65%;
-    height: 400px;
+    width:40%;
+    height: 200px;
     position:relative;
     bottom:30px;
     border:1px solid darkgray;
@@ -33,16 +42,16 @@
 .back-info-projet {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position:relative;
     padding-left:5%;
     padding-right: 5%;
     width:90%;
-    height:400px;
+    height:190px;
 }
 .txt-info-projet {
-    width: 50%;
+    width: 90%;
     height:70%;
     border:1px solid darkgray;
 }
