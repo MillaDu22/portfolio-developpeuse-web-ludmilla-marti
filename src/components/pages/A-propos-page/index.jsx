@@ -1,7 +1,7 @@
 import React from 'react';
 import Banniere from "../../Banniere/index";
 import Collapse from '../../Collapse/index';
-import Collapses from '../../Collapse/Collapses'
+import Collapses from '../../Collapse/Collapses';
 import './a-propos-page.css';
 
 function AProposPage() {

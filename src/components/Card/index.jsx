@@ -8,7 +8,7 @@ function Card  ({id, cover, title, informations}){
                 <div className = "card">
                     <img src= {cover} alt = "coverCard" className="coverCard"/>
                     <div className="card-content">
-                        <p className ="informations">{ informations }</p>
+                        <span className ="informations">{ informations }<p className="voir">Lire +</p></span>
                         <h3 className = "titreCard">{ title }</h3>
                     </div>
                 </div>
