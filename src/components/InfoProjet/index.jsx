@@ -26,7 +26,7 @@ const InfoProjet = () => {
                     </span>
                     <ul className="liens-list">
                         <li className="lien"><a className="lien-a" href={ficheProjet?.code}>Voir le code du projet</a></li>
-                        <li className="lien"><a className="lien-a" href={ficheProjet?.site}>Visiter la page du</a></li>
+                        <li className="lien"><a className="lien-a" href={ficheProjet?.site}>Visiter le site</a></li>
                     </ul>
                 </div>
                 </div>
