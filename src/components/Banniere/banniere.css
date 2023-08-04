@@ -16,6 +16,10 @@
     border-radius: 0px 5px 0px 5px;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
+.title-banniere {
+    font-family:"Cormorant";
+    font-size: 20px;
+}
 .txt-banniere {
     display: flex;
     flex-direction: column;
@@ -34,8 +38,17 @@
     line-height:30px;
 }
 @media screen and (max-width:768px) {
-    .txt-banniere{
+    .banniere {
         width:100%;
+    }
+    .title-banniere {
+        font-size: 17px;
+    }
+    .txt-banniere{
+        width:92%;
         text-align: left;
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 16px;
     }
 }

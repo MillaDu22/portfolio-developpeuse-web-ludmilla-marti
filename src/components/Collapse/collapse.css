@@ -42,7 +42,7 @@
     transform: translateY(-2px);
     transition: transform 0.2s ease-out;
   }
-  
+
   .textInfo {
     background:linear-gradient(45deg, lightgrey, white, rgba(125, 1, 125, 0.321));
     color: purple;
@@ -73,6 +73,7 @@
     padding-bottom: 10px;
   }
   .projets, .certifications {
+    padding-top: 0px;
     list-style: none;
     color: purple;
     font-family: "Cormorant";
@@ -111,19 +112,17 @@
       margin-bottom: 0%;
     }
     .labelTitleInfo {
-      font-size: 13px;
+      font-size: 16px;
       line-height: 18.5px;
     }
-    .textInfo {
-      font-size: 12px;
-      line-height: 17.1px;
+    .projet, .certification {
+      font-size: 15px;
+      line-height: 20px;
     }
-    .listEquipement {
-      display: flex;
-      justify-content: flex-end;
-    }
-    .ulList {
-      width: 75%;
-      right: 25%;
+    .projets, .certifications{
+      position: relative;
+      width: 100%;
+      right: 11%;
+      left: -11%;
     }
   }

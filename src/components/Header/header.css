@@ -68,3 +68,10 @@
 .nav_item_text3{
     width:28px;
 }
+
+@media screen and (max-width:768px) {
+    .header_link {
+        font-size: 20px;
+    }
+}
+

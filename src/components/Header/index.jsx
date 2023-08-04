@@ -6,7 +6,7 @@ import './header.css';
 function Header() {
     return (
         <header className="header">
-            <h1 className= "Ttre-app">
+            <h1 className= "Titre-app">
                 <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
             </h1>
             <nav className="nav">

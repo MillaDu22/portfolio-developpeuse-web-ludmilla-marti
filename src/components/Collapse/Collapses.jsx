@@ -21,22 +21,22 @@ const Collapses =({content}) => {
                     <div className="textInnerInfo">
                         {isOpen &&  Array.isArray(content) === false && <div className="p-text-info">
                             <ul className="certifications">
-                                <li className ="certifications"> - Les métiers de développeur.</li>
-                                <li className ="certifications"> - Creer un site web avec HTML5 et CSS3.</li>
-                                <li className ="certifications"> - Mettre en place son environnement front-end.</li>
-                                <li className ="certifications"> - Le css avec Sass.</li>
-                                <li className ="certifications"> - Programmer avec JavaScript.</li>
-                                <li className ="certifications"> - Creer des animations css modernes.</li>
-                                <li className ="certifications"> - Gerer du code avec Git et GitHub.</li>
-                                <li className ="certifications"> - Utiliser la ligne de commande dans un terminal.</li>
-                                <li className ="certifications"> - Le fonctionnement des algorithmes.</li>
-                                <li className ="certifications"> - Ecrire du JavaScript pour le web.</li>
-                                <li className ="certifications"> - Développeur agile.</li>
-                                <li className ="certifications"> - React.</li>
-                                <li className ="certifications"> - Optimisation du référencement d'un site (SEO) en améliorant les performances techniques.</li>
-                                <li className ="certifications"> - L'accessibilité.</li>
-                                <li className ="certifications"> - Tester et déboguer l'interface d'un site.</li>
-                                <li className ="certifications"> - Ecrire du JavaScript pour le web.</li>
+                                <li className ="certification"> - Les métiers de développeur.</li>
+                                <li className ="certification"> - Creer un site web avec HTML5 et CSS3.</li>
+                                <li className ="certification"> - Mettre en place son environnement front-end.</li>
+                                <li className ="certification"> - Le css avec Sass.</li>
+                                <li className ="certification"> - Programmer avec JavaScript.</li>
+                                <li className ="certification"> - Creer des animations css modernes.</li>
+                                <li className ="certification"> - Gerer du code avec Git et GitHub.</li>
+                                <li className ="certification"> - Utiliser la ligne de commande dans un terminal.</li>
+                                <li className ="certification"> - Le fonctionnement des algorithmes.</li>
+                                <li className ="certification"> - Ecrire du JavaScript pour le web.</li>
+                                <li className ="certification"> - Développeur agile.</li>
+                                <li className ="certification"> - React.</li>
+                                <li className ="certification"> - Optimisation du référencement d'un site (SEO) en améliorant les performances techniques.</li>
+                                <li className ="certification"> - L'accessibilité.</li>
+                                <li className ="certification"> - Tester et déboguer l'interface d'un site.</li>
+                                <li className ="certification"> - Ecrire du JavaScript pour le web.</li>
                             </ul>
                         </div>}
                     </div>
