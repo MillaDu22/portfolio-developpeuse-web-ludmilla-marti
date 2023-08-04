@@ -6,7 +6,9 @@ import './header.css';
 function Header() {
     return (
         <header className="header">
-        <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
+            <h1 className= "Ttre-app">
+                <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
+            </h1>
             <nav className="nav">
                 <Link className="nav_item1" to="/home">
                     <p className="nav_item_text1">Accueil</p>

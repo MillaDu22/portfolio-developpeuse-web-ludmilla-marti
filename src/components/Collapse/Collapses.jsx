@@ -10,8 +10,8 @@ const Collapses =({content}) => {
     return(
         <section>
             <div className="wrapInfo vrap">
-                <input type="checkbox" id="collapse" className="toggleInfo" />
-                <label htmlFor="collapse" className="labelToggleInfo">
+                <input aria-checked="false" tabindex="0" type="checkbox" id="collapse2" className="toggleInfo" aria-label="collapse2"  />
+                <label htmlFor="collapse2" className="labelToggleInfo">
                     <p className=" labelTitleInfo" onClick ={display}>Mes certifications Openclassrooms
                         {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
                         (<img src={chevron} className="chevron-down"alt="down"/>)}

@@ -13,11 +13,13 @@
     border-bottom: 1px solid black;
 }
 
-.header_link {
+.titre-app {
     width:40%;
     height: 80px;
     display: flex;
     align-items: center;
+}
+.header_link{
     text-decoration: none;
     text-align: left;
     font-family: "Tangerine";

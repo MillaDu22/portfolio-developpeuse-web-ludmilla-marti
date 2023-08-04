@@ -14,6 +14,7 @@ function Gallerie () {
                             id = { datasProjet.id } 
                             title = { datasProjet.title }
                             cover = { datasProjet.cover } 
+                            alt = { datasProjet.alt }
                             informations = { datasProjet.informations } />
                         )
                     })}

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./cvpage.css";
-import Tof from "../../../assets/img/FB_IMG_1690363536869.jpg";
+import Tof from "../../../assets/img/FB_IMG_1690363536869.webp";
 
 
 const CvPage =() => {
@@ -12,7 +12,7 @@ const CvPage =() => {
                         <img src={Tof} alt="tof profil" className="img-profil"/>
                     </span>
                     <span className="en-tete">
-                        <p className="name">Ludmilla MARTI</p>
+                        <h1 className="name">Ludmilla MARTI</h1>
                         <p className ="age">46 ans</p>
                         <p className ="fonction">Développeuse Web</p>
                     </span>
