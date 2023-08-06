@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top:65px;
+    padding-top:95px;
     padding-bottom:95px;
 }
 .box {
@@ -15,6 +15,9 @@
     right:10%;
 }
 @media  screen and (max-width: 768px){
+    .AProposPage {
+        padding-top: 0px;
+    }
     .box {
         width:100%;
         left:0;

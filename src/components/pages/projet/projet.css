@@ -6,3 +6,9 @@
     align-items: center;
     width:100%;
 }
+@media screen and (max-width:768px) {
+    .projet-page {
+        background:linear-gradient(45deg, white, lightgrey);
+    }
+}
+

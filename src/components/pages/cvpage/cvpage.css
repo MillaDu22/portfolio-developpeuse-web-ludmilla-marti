@@ -192,6 +192,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: linear-gradient(45deg, white, lightgrey);
+        color:black;
     }
     .tour-img {
         left:auto;
@@ -202,6 +204,7 @@
         left: auto;
         right:auto;
         width:36%;
+        text-align: center;
     }
     .name {
         position: relative;
@@ -217,6 +220,7 @@
     .aside {
         flex-direction: column;
         width:100%;
+        padding-bottom:5%;
     }
     .titre-aside {
         font-size: 18px;
@@ -225,6 +229,8 @@
     .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
         font-size:15px;
         text-align: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
     .profile {
         font-size: 18px;
@@ -250,6 +256,4 @@
         font-size: 15px;
         line-height:15px;
     }
-
-
 }

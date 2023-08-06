@@ -25,7 +25,14 @@
     font-family: "Cormorant";
     font-weight: 100;
     font-size:18px;
+    position:relative;
+    margin-top:10px;
 }
 .link-page:hover, .mailto:hover {
     color: lightgrey;
+}
+@media screen and (max-width:768px) {
+    .footer {
+        height:150px;
+    }
 }
