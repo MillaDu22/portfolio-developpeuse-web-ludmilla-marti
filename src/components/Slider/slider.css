@@ -14,16 +14,18 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: absolute;
     width:99%;
-    height:315px;
+    height:90%;
     z-index: 1;
 }
 
 .imgSlider {
     position:absolute;
+    top:10%;
     width:100%;
-    height:315px;
+    height:90%;
     object-fit:contain;
     border-radius:5px;
 }
@@ -32,7 +34,6 @@
 }
 .containerArrows {
     position:absolute;
-    left:0;
     top:50%;
     width:100%;
     display:flex;
@@ -43,29 +44,30 @@
 }
 .left {
     text-align: center;
-    width:10%;
+    width:2%;
     position:absolute;
     left:2%;
-    font-size:40px;
+    font-size:20px;
     font-weight: 700;
     color: purple;
 }
 .right {
     text-align: center;
-    width:10%;
+    width:2%;
     position:absolute;
-    right:2%;
-    font-size:40px;
+    right:3%;
+    font-size:20px;
     font-weight: 700;
     color: purple;
 }
+
 .counterSlide {
     display:flex;
     justify-content: center;
     position:relative;
     left:auto;
     right:auto;
-    top: 92%;
+    top: 100%;
     width:100%;
     height:20px;
     z-index: 3;
@@ -83,19 +85,20 @@
 @media screen and (max-width:768px) {
     .slider {
         width:100%;
-        height:255px;
+        height:200px;
         box-sizing: border-box;
         overflow: hidden;
     }
     .slides {
-        width:99.8%;
+        width:100%;
         height:100%;
         overflow: hidden;
     }
     .imgSlider {
         border-radius: 5px;
-        height:93.8%;
+        height:90%;
         object-fit: contains;
+        top:5%;
     }
     .counterSlide, .count {
         display:none;
