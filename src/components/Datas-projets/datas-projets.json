@@ -6,8 +6,8 @@
 		"informations": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS.",
 		"Tags": ["Html5", "Css3"],
 		"description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS. En version desktop, tablette et mobile, à partir de maquettes figma fournies par le designer.",
-		"code": "https://github.com/MillaDu22/Booki",
-		"site": "https://milladu22.github.io/Booki/",
+		"code": "https://github.com/MillaDu22/booki-",
+		"site": "https://milladu22.github.io/booki-/",
 		"alt": "Photo site Booki",
 		"cover":  "https://i.ibb.co/4ZxXGmf/Cover-Booki.webp",
 
@@ -41,7 +41,6 @@
 		"informations": "Création d'une page web dynamique avec JavaScript.",
 		"description": "Création de la page web dynamique de l'architecte avec JavaScript. Récupération des travaux sur l'API et mise en place d'une modale d'ajout et de supression des projets. Filtrage de la gallerie par catégories de travaux.",
 		"code": "https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel",
-		"site": "https://milladu22.github.io/Portfolio-Architecte-Sophie-Bruel/",
 		"Tags": ["Html5", "Css3", "JavaScript"],
 		"alt": "photo site architecte Sophie Bluel",
 		"cover": "https://i.ibb.co/BBnpTVf/Cover-Sophie-Bluel.webp",
@@ -80,7 +79,7 @@
 		"Tags": ["React", "React-Router"],
 		"alt": "photo site Kasa",
 		"cover": "https://i.ibb.co/9sntKty/Cover-Kasa.webp",
-
+		"site": "",
 		"photos":[
 			"https://i.ibb.co/jRdwMgJ/kasa1-min.webp",
 			"https://i.ibb.co/GVKNKhm/kasa2-min.webp",
@@ -96,7 +95,6 @@
 		"informations": "Implémentation du front-end d'une application bancaire avec React.",
 		"description": "Implémentation du front-end d'une application bancaire avec React. Mise en place du tableau de bord des utilisateurs. Projet de base en Html & Css repris avec React. En phase 1, l'authentification et la possibilité de gerer le profil par l'utilisateur. Et en phase 2, la rédaction de la documentation transactions décrivant les routes API en suivant les directives Swagger.",
 		"code": "https://github.com/MillaDu22/ArgentBank-website",
-		"site": "https://milladu22.github.io/ArgentBank-website/",
 		"Tags": [" React", "React-Redux", "React-Router"],
 		"alt": "Photo site Argent Bank",
 		"cover": "https://i.ibb.co/ZdBV4jq/Cover-Argent-Bank.webp",
