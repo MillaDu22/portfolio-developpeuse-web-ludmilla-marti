@@ -10,7 +10,7 @@ function Header() {
                 <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
             </h1>
             <nav className="nav">
-                <Link className="nav_item1" to="/home">
+                <Link className="nav_item1" to="/">
                     <p className="nav_item_text1">Accueil</p>
                 </Link>
                 <Link className="nav_item2" to="/a-propos-page">

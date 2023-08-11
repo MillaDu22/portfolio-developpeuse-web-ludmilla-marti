@@ -10,8 +10,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 const Router = () => {
     return (
         <Routes>
-            <Route element={<Navigate replace to="/home" />} path="/" />
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/a-propos-page" element={<AProposPage />} />
             <Route path="/projet/:id" element={<Projet />} />
             <Route path="/cvpage" element={<CvPage />} />
