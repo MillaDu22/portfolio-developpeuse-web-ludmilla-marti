@@ -1,3 +1,19 @@
+.section-competences {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titre-competences {
+    text-align: center;
+    font-family: "Cormorant";
+    color:purple;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 40px;
+}
 .container-icons {
     background:linear-gradient(45deg, lightgrey, white);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
@@ -6,9 +22,12 @@
     border-radius: 5px;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width:90%;
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 5%;
     height:100px;
 }
 i {
@@ -30,13 +49,24 @@ i {
 .fa-react {
     color:aqua;
 }
+.fa-node {
+    color:rgb(29, 174, 13);
+}
+.fa-figma {
+    color:purple;
+}
+.fa-slack {
+    color:darkturquoise;
+}
 @media screen and (max-width:768px) {
     .container-icons {
         width:100%;
-        height:50px;
+        padding-left: 0;
+        border-radius: 0%;
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: 60px;
     }
     i {
         font-size:24px;

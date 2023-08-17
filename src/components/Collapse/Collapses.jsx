@@ -37,6 +37,8 @@ const Collapses =({content}) => {
                                 <li className ="certification"> - L'accessibilité.</li>
                                 <li className ="certification"> - Tester et déboguer l'interface d'un site.</li>
                                 <li className ="certification"> - Ecrire du JavaScript pour le web.</li>
+                                <li className ="certification"> - Utiliser le state manager Redux pour gérer l’état de vos applications.</li>
+                                <li className ="certification"> - Mettez en ligne votre site web.</li>
                             </ul>
                         </div>}
                     </div>

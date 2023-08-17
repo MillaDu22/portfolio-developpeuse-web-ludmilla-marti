@@ -29,10 +29,10 @@ const Collapse =({content}) => {
                                 <li className ="projet"> - Le projet Ohmyfood: Implémentation et amélioration de l'interface du site mobile avec des animations css.</li>
                                 <li className ="projet"> - Le projet Print-It: Mes premiers pas vers le langage JavaScript.</li>
                                 <li className ="projet"> - Le projet Architecte Sophie Bluel: Création d'une page xeb dynamique avec JavaScript.</li>
-                                <li className ="projet"> - Le projet Menu by qwerta: Planification du développement du site de mon client.</li>
+                                <li className ="projet"> - Le projet Menu by qwerta: Planification du développement du site du client.</li>
                                 <li className ="projet"> - Le projet kasa: Création d'une application web de location immobilière avec React.</li>
-                                <li className ="projet"> - Le projet Photographe Nina Carducci: Optimisation du référencement.</li>
-                                <li className ="projet"> - Le projet 77events: Débuggage du site le l'agence d'évènementiel.</li>
+                                <li className ="projet"> - Le projet Photographe Nina Carducci: Optimisation et référencement.</li>
+                                <li className ="projet"> - Le projet 724events: Débuggage du site de l'agence d'évènementiel.</li>
                                 <li className ="projet"> - Le projet Argent-Bank: Implémentation du front-end de l'application bancaire avec React.</li>
                             </ul>
                         </div>}
