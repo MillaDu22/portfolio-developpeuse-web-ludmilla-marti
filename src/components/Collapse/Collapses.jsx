@@ -10,7 +10,7 @@ const Collapses =({content}) => {
     return(
         <section>
             <div className="wrapInfo vrap">
-                <input aria-checked="false" tabindex="0" type="checkbox" id="collapse2" className="toggleInfo" aria-label="collapse2"  />
+                <input aria-checked="false" tabIndex="0" type="checkbox" id="collapse2" className="toggleInfo" aria-label="collapse2"  />
                 <label htmlFor="collapse2" className="labelToggleInfo">
                     <p className=" labelTitleInfo" onClick ={display}>Mes certifications Openclassrooms
                         {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
@@ -23,7 +23,6 @@ const Collapses =({content}) => {
                             <ul className="certifications">
                                 <li className ="certification"> - Les métiers de développeur.</li>
                                 <li className ="certification"> - Creer un site web avec HTML5 et CSS3.</li>
-                                <li className ="certification"> - Mettre en place son environnement front-end.</li>
                                 <li className ="certification"> - Le css avec Sass.</li>
                                 <li className ="certification"> - Programmer avec JavaScript.</li>
                                 <li className ="certification"> - Creer des animations css modernes.</li>
@@ -38,7 +37,8 @@ const Collapses =({content}) => {
                                 <li className ="certification"> - Tester et déboguer l'interface d'un site.</li>
                                 <li className ="certification"> - Ecrire du JavaScript pour le web.</li>
                                 <li className ="certification"> - Utiliser le state manager Redux pour gérer l’état de vos applications.</li>
-                                <li className ="certification"> - Mettez en ligne votre site web.</li>
+                                <li className ="certification"> - Mettre en ligne votre site web.</li>
+                                <li className ="certification"> - Utiliser ChatGPT pour améliorer la productivité.</li>
                             </ul>
                         </div>}
                     </div>

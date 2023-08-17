@@ -13,7 +13,7 @@ const Collapse =({content}) => {
     return(
         <section>
             <div className="wrapInfo vrap" >
-                <input type="checkbox" aria-checked="false" tabindex="0" id="collapse1" className="toggleInfo" aria-label="collapse1" />
+                <input type="checkbox" aria-checked="false" tabIndex="0" id="collapse1" className="toggleInfo" aria-label="collapse1" />
                 <label htmlFor="collapse1" className="labelToggleInfo">
                     <p className=" labelTitleInfo" onClick ={display}>Les projets de mon parcours intégratrice web
                         {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :

@@ -8,7 +8,7 @@ class Error extends Component {
             <div className="error_wrapper">
                 <h1 className="error_number">404</h1>
                 <p className= "error_description">Not found</p>
-                <Link className = "error" to="/">Retour vers la page d'accueil</Link>
+                <Link className = "error-link" to="/">Retour vers la page d'accueil</Link>
             </div>
         );
     }

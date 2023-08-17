@@ -61,7 +61,7 @@ i {
 @media screen and (max-width:768px) {
     .container-icons {
         width:100%;
-        padding-left: 0;
+        padding-left: 0%;
         border-radius: 0%;
         justify-content: center;
         align-items: center;

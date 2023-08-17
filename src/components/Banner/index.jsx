@@ -9,7 +9,7 @@ function Banner () {
             </span>
             <div className="about-me">
                 <h2 className= "welcome">Bienvenue sur mon portfolio !</h2>
-                <p className= "txt-welcome">Après 23 années passées dans le domaine de la sécurité privé,
+                <p className= "txt-welcome">Après 23 années passées dans le domaine de la sécurité privée,
                     J'ai choisi de me reconvertir, par passion, dans le secteur du développement web.
                 </p>
                 <p className="txt-visit">Vous pouvez consultez quelques projets réalisés durant mon parcours Openclassrooms. </p>

@@ -10,11 +10,11 @@ function Features () {
                 <i className="fa-brands fa-sass"></i>
                 <i className="fa-brands fa-js"></i>
                 <i className="fa-brands fa-react"></i>
-                <i class="fa-brands fa-node"></i>
-                <i class="fa-brands fa-git"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-figma"></i>
-                <i class="fa-brands fa-slack"></i>   
+                <i className="fa-brands fa-node"></i>
+                <i className="fa-brands fa-git"></i>
+                <i className="fa-brands fa-github"></i>
+                <i className="fa-brands fa-figma"></i>
+                <i className="fa-brands fa-slack"></i>   
             </div>
         </div>
     )

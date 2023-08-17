@@ -1,23 +1,24 @@
 .error_wrapper {
     background:url("../../../assets/img/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.webp");
     box-sizing: border-box;
-    padding: 90px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    min-height: 450px;
 }
 .error_number {
     font-size: 36px;
-    margin: 20px;
-    color: var(--primary-color);
+    margin: 10px auto 10px auto;
+    color: black;
 }
 .error_description {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 100px;
+    margin: 0px auto 0px auto;
 }
-.error {
+.error-link {
     font-size: 18px;
     color:red;
+    margin: 10px auto 10px auto;
 }
