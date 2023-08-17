@@ -75,11 +75,10 @@
 		"informations": "Création d'une application web de location immobilière avec React.",
 		"description": "Création d'une application web de location immobilière avec React. Le site de Kasa  était codé à l'époque en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. En l'absence du développeur back-end, J'ai construit le frontend à partir d'un fichier JSON regroupant les datas des annonces des logements.",
 		"code": "https://github.com/MillaDu22/Kasa",
-		"site": "https://milladu22.github.io/kasa/",
+		"site": "https://milladu22.github.io/Kasa/",
 		"Tags": ["React", "React-Router"],
 		"alt": "photo site Kasa",
 		"cover": "https://i.ibb.co/9sntKty/Cover-Kasa.webp",
-		"site": "",
 		"photos":[
 			"https://i.ibb.co/jRdwMgJ/kasa1-min.webp",
 			"https://i.ibb.co/GVKNKhm/kasa2-min.webp",
