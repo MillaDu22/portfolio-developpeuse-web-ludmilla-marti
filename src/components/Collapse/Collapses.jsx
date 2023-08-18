@@ -21,6 +21,7 @@ const Collapses =({content}) => {
                     <div className="textInnerInfo">
                         {isOpen &&  Array.isArray(content) === false && <div className="p-text-info">
                             <ul className="certifications">
+                                <li className ="certification"><a href="https://www.linkedin.com/in/ludmilla-marti-345313255/details/certifications/" aria-label="Certifications" className="Lien-collapse">Voir tous les certificats/Linkedin</a></li>
                                 <li className ="certification"> - Les métiers de développeur.</li>
                                 <li className ="certification"> - Creer un site web avec HTML5 et CSS3.</li>
                                 <li className ="certification"> - Le css avec Sass.</li>
@@ -38,7 +39,6 @@ const Collapses =({content}) => {
                                 <li className ="certification"> - Ecrire du JavaScript pour le web.</li>
                                 <li className ="certification"> - Utiliser le state manager Redux pour gérer l’état de vos applications.</li>
                                 <li className ="certification"> - Mettre en ligne votre site web.</li>
-                                <li className ="certification"> - Utiliser ChatGPT pour améliorer la productivité.</li>
                             </ul>
                         </div>}
                     </div>

@@ -73,7 +73,7 @@
     padding-top:10px;
     padding-bottom: 10px;
   }
-  .projets, .certifications {
+  .projets, .certifications, a {
     padding-top: 0px;
     list-style: none;
     color: purple;
@@ -82,6 +82,22 @@
     font-size: 15px;
     line-height: 34px;
     text-align: left;
+  }
+  .Lien-collapse{
+    position: relative;
+    left:10px;
+    padding-top: 0px;
+    list-style: none;
+    color:blueviolet;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 34px;
+    text-align: left;
+  }
+  .Lien-collapse:hover {
+    color:black;
+    font-size:16px;
   }
 
   .toggleInfo:checked + .labelToggleInfo + .textInfo {
@@ -123,7 +139,7 @@
     .projets, .certifications{
       position: relative;
       width: 100%;
-      right: 11%;
-      left: -11%;
+      margin-right:2%;
+      margin-left: -8%;
     }
   }

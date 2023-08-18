@@ -4,13 +4,21 @@ import {useParams} from "react-router-dom";
 import datasProjets from '../Datas-projets/datas-projets.json';
 import Tag from '../Tag/index';
 import Slider from '../../components/Slider/index';
+import LienCode from "../LienCode/index";
+import LienSite from "../LienSite/index";
+
 
 const InfoProjet = () => {
     const id = useParams(); 
     const ficheProjet = datasProjets.find ((datasprojet) => datasprojet.id === id.id);
-
     const TagsProjets = ficheProjet?.Tags.map ((Tags, index) => {
         return <Tag key = {index} title = {Tags} />
+    });
+    const CodesProjets = ficheProjet?.code.map ((code, index) => {
+        return <LienCode key = {index} title = {code} />
+    });
+    const SitesProjets = ficheProjet?.site.map ((site, index) => {
+        return <LienSite key = {index} title = {site} />
     });
     return (
         <>
@@ -24,10 +32,11 @@ const InfoProjet = () => {
                     <span className="back-info-projet">
                         <span className="txt-info-projet">{ficheProjet?.description}</span>
                     </span>
-                    <ul className="liens-list">
-                        <li className="lien"><a className="lien-a" href={ficheProjet?.code}>Voir le code du projet</a></li>
+                    <div className=" container-liens">{CodesProjets}{SitesProjets}</div> 
+                    {/*<ul className="liens-list"> 
+                        <li className="lien"><a className="lien-a" href={ficheProjet?.liens}>Voir le code du projet</a></li>
                         <li className="lien"><a className="lien-a" href={ficheProjet?.site}>Visiter le site</a></li>
-                    </ul>
+                    </ul>*/}
                 </div>
                 </div>
             </div>
