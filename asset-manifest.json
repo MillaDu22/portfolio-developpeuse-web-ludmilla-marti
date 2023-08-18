@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.458a7fee.css",
-    "main.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.1caf8a89.js",
+    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.27959ae6.css",
+    "main.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.78f23245.js",
     "static/js/787.00b4f875.chunk.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js",
     "static/media/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.c76af86eb63468205692.webp",
     "static/media/FB_IMG_1690363536869.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/FB_IMG_1690363536869.91ef79723d60e8dfc21a.webp",
     "index.html": "/portfolio-developpeuse-web-ludmilla-marti/index.html",
-    "main.458a7fee.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.458a7fee.css.map",
-    "main.1caf8a89.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.1caf8a89.js.map",
+    "main.27959ae6.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.27959ae6.css.map",
+    "main.78f23245.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.78f23245.js.map",
     "787.00b4f875.chunk.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.458a7fee.css",
-    "static/js/main.1caf8a89.js"
+    "static/css/main.27959ae6.css",
+    "static/js/main.78f23245.js"
   ]
 }
