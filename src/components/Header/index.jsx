@@ -14,7 +14,7 @@ function Header() {
                     <p className="nav_item_text1">Accueil</p>
                 </Link>
                 <Link className="nav_item2" to="/a-propos-page">
-                    <p className="nav_item_text2">A propos de moi</p>
+                    <p className="nav_item_text2">A propos</p>
                 </Link>
                 <Link className="nav_item3" to="/cvpage">
                     <p className="nav_item_text3">Cv</p>
