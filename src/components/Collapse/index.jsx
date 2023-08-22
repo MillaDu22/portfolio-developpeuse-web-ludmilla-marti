@@ -6,7 +6,7 @@ import './collapse.css';
 
 
 
-const Collapse =({ title, content, content1}) => { 
+const Collapse =({ id, title, content, content1}) => { 
     const [isOpen , setIsOpen] = useState(false);
     const display = () => {
     setIsOpen(!isOpen);
@@ -14,8 +14,8 @@ const Collapse =({ title, content, content1}) => {
     return(
         <section>
             <div className="wrapInfo vrap" >
-                <input type="checkbox" aria-checked="false" tabIndex="0" id="collapse1" className="toggleInfo" aria-label="collapse1" />
-                <label htmlFor="collapse1" className="labelToggleInfo">
+                <input type="checkbox" aria-checked="mixed" tabIndex="0" id = {id} className="toggleInfo" aria-labelledby= {id} aria-describedby= {id}/>
+                <label htmlFor= {id} className="labelToggleInfo">
                     <p className=" labelTitleInfo" onClick ={display}>{title}
                         {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
                         (<img src={chevron} className="chevron-down"alt="down"/>)}
