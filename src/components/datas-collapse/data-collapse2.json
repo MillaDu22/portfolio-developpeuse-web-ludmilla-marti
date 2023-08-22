@@ -2,7 +2,7 @@
     {
         "id": "1",
         "certificats": [
-            "Voir tous les certificats",
+            " Tous les certificats/linkedin.",
             " - Les métiers de développeur.",
             " - Creer un site web avec HTML5 et CSS3.",
             " - Le css avec Sass.",
@@ -17,10 +17,28 @@
             " - Optimisation du référencement d'un site (SEO) en améliorant les performances techniques.",
             " - L'accessibilité.",
             " - Tester et déboguer l'interface d'un site.",
-            " - Ecrire du JavaScript pour le web.",
             " - Utiliser le state manager Redux pour gérer l’état de vos applications.",
-            " - Mettre en ligne votre site web."
+            " - Mettre en ligne votre site web.",
+            " - Utiliser ChatGPT pour améliorer la productivité"
         ],
-        "lien": "https://www.linkedin.com/in/ludmilla-marti-345313255/details/certifications/"
+        "lien": [
+            "https://www.linkedin.com/in/ludmilla-marti-345313255/details/certifications/",
+            "https://openclassrooms.com/fr/course-certificates/3972278678",
+            "https://openclassrooms.com/fr/course-certificates/3638376655",
+            "https://openclassrooms.com/fr/course-certificates/5852204522",
+            "https://openclassrooms.com/fr/course-certificates/4614307780",
+            "https://openclassrooms.com/fr/course-certificates/3744628093",
+            "https://openclassrooms.com/fr/course-certificates/5568821645",
+            "https://openclassrooms.com/fr/course-certificates/4581085720",
+            "https://openclassrooms.com/fr/course-certificates/1430244560",
+            "https://openclassrooms.com/fr/course-certificates/2389353375",
+            "https://openclassrooms.com/fr/course-certificates/9779431406",
+            "https://openclassrooms.com/fr/course-certificates/1299435073",
+            "https://openclassrooms.com/fr/course-certificates/7977967610",
+            "https://openclassrooms.com/fr/course-certificates/4875036124",
+            "https://openclassrooms.com/fr/course-certificates/8325307532",
+            "https://openclassrooms.com/fr/course-certificates/9973355833",
+            "https://openclassrooms.com/fr/course-certificates/6277851977"
+        ]
     }
 ]

@@ -10,15 +10,15 @@ function AProposPage() {
     const projets = ficheCollapse1?.projets.map((projet, index) => {
         return <div className="nav" >
                     <ul className = "projets"  key= {index}>
-                        <li className="projet">{projet}<a href={ficheCollapse1.liens} className="Lien-collapse">Voir le site</a></li>
+                        <li className="projet">{projet}<a href={ficheCollapse1.liens[index]} className="Lien-collapse">Voir le site.</a></li>
                     </ul>
                 </div>
     })
     const ficheCollapse2 = datasCollapse2.find ((datascollapse2) => datascollapse2.id);
-    const certificats = ficheCollapse2?.certificats.map((certificat, index, lien) => {
+    const certificats = ficheCollapse2?.certificats.map((certificat, index) => {
         return <div className="nav" >
                     <ul className = "projets"  key= {index}>
-                        <li className= "projet">{certificat}<a href= {ficheCollapse2.lien} className="Lien-collapse">Voir le certificat</a></li>
+                        <li className= "projet">{certificat}<a href= {ficheCollapse2.lien[index]} className="Lien-collapse">Voir +.</a></li>
                     </ul>
                 </div>
     })
