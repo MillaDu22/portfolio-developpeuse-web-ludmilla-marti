@@ -8,9 +8,24 @@ import './a-propos-page.css';
 function AProposPage() {
     const ficheCollapse1 = datasCollapse1.find ((datascollapse1) => datascollapse1.id);
     const projets = ficheCollapse1?.projets.map((projet, index) => {
-        return <div className="nav" >
-                    <ul className = "projets"  key= {index}>
-                        <li className="projet">{projet}<a href={ficheCollapse1.liens[index]} className="Lien-collapse">Voir le site.</a></li>
+
+        return <div className="nav">
+                    <ul className = "projets"  key = {index}>
+                        <li className="projet" key= {projet}>{projet}<a href={ficheCollapse1.liens[index]} className="Lien-collapse">Voir le site.</a></li>
+                    </ul>
+                </div>
+    })
+    const projetsCode = ficheCollapse1?.projetsCode.map((projetCode, index) => {
+        return <div className="nav">
+                    <ul className = "projets" key={index}>
+                        <li className="projet" key= {projetCode}>{projetCode}<a href={ficheCollapse1.liensCode[index]} className="Lien-collapse">Voir le code.</a></li>
+                    </ul>
+                </div>
+    })
+    const projetNoLink = ficheCollapse1?.projetNoLink.map((projetnolink, index) => {
+        return <div className="nav">
+                    <ul className = "projets" key={index}>
+                        <li className="projet" key = {projetnolink}>{projetnolink}</li>
                     </ul>
                 </div>
     })
@@ -18,7 +33,14 @@ function AProposPage() {
     const certificats = ficheCollapse2?.certificats.map((certificat, index) => {
         return <div className="nav" >
                     <ul className = "projets"  key= {index}>
-                        <li className= "projet">{certificat}<a href= {ficheCollapse2.lien[index]} className="Lien-collapse">Voir +.</a></li>
+                        <li className= "projet">{certificat}<a href= {ficheCollapse2.lien[index]} className="Lien-collapse">Certificat.</a></li>
+                    </ul>
+                </div>
+    })
+    const tousCertificats = ficheCollapse2?.tousCertificats.map((touscertificat, index) => {
+        return <div className="nav" >
+                    <ul className = "projets"  key= {index}>
+                        <li className= "projet">{touscertificat}<a href= {ficheCollapse2.lienTous[index]} className="Lien-collapse">Certificats/Linkedin.</a></li>
                     </ul>
                 </div>
     })
@@ -30,14 +52,14 @@ function AProposPage() {
                     <div>
                         <Collapse
                             title = "Les projets de mon parcours intégratrice web"
-                            content = {projets}/>
+                            content = {[...projets, ...projetsCode, ...projetNoLink]}/>
                     </div>
                 </div>
                 <div className = "box">
                     <div>
                         <Collapse
                             title = "Mes certifications Openclassrooms"
-                            content1 = {certificats}/>
+                            content1 = {[...tousCertificats, ...certificats]}/>
                     </div>
                 </div>
             </section>

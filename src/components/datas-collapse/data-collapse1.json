@@ -6,10 +6,11 @@
             " - Le projet Booki: Création de la page d'accueil d'une agence de voyage avec HTML & CSS.",
             " - Le projet Ohmyfood: Implémentation et amélioration de l'interface du site mobile avec des animations css.",
             " - Le projet Print-It: Mes premiers pas vers le langage JavaScript.",
-            " - Le projet Architecte Sophie Bluel: Création d'une page xeb dynamique avec JavaScript.",
-            " - Le projet Menu by qwerta: Planification du développement du site du client.",
             " - Le projet kasa: Création d'une application web de location immobilière avec React.",
-            " - Le projet Photographe Nina Carducci: Optimisation et référencement.",
+            " - Le projet Photographe Nina Carducci: Optimisation et référencement."
+        ],
+        "projetsCode": [
+            " - Le projet Architecte Sophie Bluel: Création d'une page web dynamique avec JavaScript.",
             " - Le projet 724events: Débuggage du site de l'agence d'évènementiel.",
             " - Le projet Argent-Bank: Implémentation du front-end de l'application bancaire avec React."
         ],
@@ -18,12 +19,16 @@
             "https://milladu22.github.io/booki-/",
             "https://milladu22.github.io/OhMyFood/",
             "https://milladu22.github.io/Print-it-JS/",
-            "https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel",
-            "",
             "https://milladu22.github.io/Kasa/",
-            "https://milladu22.github.io/nina-carducci/",
+            "https://milladu22.github.io/nina-carducci/"
+        ], 
+        "liensCode": [
+            "https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel",
             "https://github.com/MillaDu22/724events",
             "https://github.com/MillaDu22/ArgentBank-website"
-        ]  
+        ],
+        "projetNoLink": [
+            " - Le projet Menu by qwerta: Planification du développement du site du client."
+        ]
     }
 ]

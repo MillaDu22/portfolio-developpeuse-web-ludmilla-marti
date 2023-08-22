@@ -2,7 +2,6 @@
     {
         "id": "1",
         "certificats": [
-            " Tous les certificats/linkedin.",
             " - Les métiers de développeur.",
             " - Creer un site web avec HTML5 et CSS3.",
             " - Le css avec Sass.",
@@ -22,7 +21,6 @@
             " - Utiliser ChatGPT pour améliorer la productivité"
         ],
         "lien": [
-            "https://www.linkedin.com/in/ludmilla-marti-345313255/details/certifications/",
             "https://openclassrooms.com/fr/course-certificates/3972278678",
             "https://openclassrooms.com/fr/course-certificates/3638376655",
             "https://openclassrooms.com/fr/course-certificates/5852204522",
@@ -39,6 +37,12 @@
             "https://openclassrooms.com/fr/course-certificates/8325307532",
             "https://openclassrooms.com/fr/course-certificates/9973355833",
             "https://openclassrooms.com/fr/course-certificates/6277851977"
+        ],
+        "tousCertificats": [
+            " Tous les certificats/linkedin."
+        ],
+        "lienTous": [
+            "https://www.linkedin.com/in/ludmilla-marti-345313255/details/certifications/"
         ]
     }
 ]
