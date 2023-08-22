@@ -11,17 +11,35 @@
 .box {
     position: relative;
     width:80%;
+    height:auto;
     left:10%;
     right:10%;
+    overflow: hidden;
+}
+
+.projets {
+    width:100%;
+}
+.projet {
+    width:100%;
+    line-height: 34px;
 }
 @media  screen and (max-width: 768px){
     .AProposPage {
         padding-top: 0px;
+        padding-bottom: 40px;
     }
     .box {
         width:100%;
         left:0;
         right:0;
     }
+    .projet {
+        width:100%;
+        margin-left:-3% ;
+        margin-right: 3%;
+    
+    }
+
 }
 

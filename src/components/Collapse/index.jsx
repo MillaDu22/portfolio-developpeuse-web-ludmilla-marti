@@ -12,7 +12,7 @@ const Collapse =({ id, title, content, content1}) => {
     setIsOpen(!isOpen);
     };
     return(
-        <section>
+        <section className = "container-col">
             <div className="wrapInfo vrap" >
                 <input type="checkbox" aria-checked="mixed" tabIndex="0" id = {id} className="toggleInfo" aria-labelledby= {id} aria-describedby= {id}/>
                 <label htmlFor= {id} className="labelToggleInfo">
@@ -22,7 +22,7 @@ const Collapse =({ id, title, content, content1}) => {
                     </p>
                 </label>
                 <div className ="textInfo">
-                    <div className="textInnerInfo">
+                    <div className="text-inner-info">
                         {isOpen &&  Array.isArray(content) === true && <div className ="p-text-info">{content}</div>}
                         {isOpen &&  Array.isArray(content1) === true && <div className ="p-text-info">{content1}</div>}
                     </div>
