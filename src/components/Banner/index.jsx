@@ -1,4 +1,4 @@
-import "./banner.css";
+import "./banner.min.css";
 import Tof from "../../assets/img/FB_IMG_1690363536869.webp";
 
 function Banner () {

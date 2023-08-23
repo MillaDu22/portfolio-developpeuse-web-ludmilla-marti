@@ -1,10 +1,6 @@
 import React, {useState} from "react";
-import chevron from "../../assets/img/chevron.png";
-import './collapse.css';
-
-
-
-
+import chevron from "../../assets/img/chevron.webp";
+import './collapse.min.css';
 
 const Collapse =({ id, title, content, content1}) => { 
     const [isOpen , setIsOpen] = useState(false);

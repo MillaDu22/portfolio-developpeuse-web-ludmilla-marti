@@ -1,7 +1,7 @@
 import React from 'react';
 import Banniere from "../../Banniere/index";
 import Collapse from '../../Collapse/index';
-import './a-propos-page.css';
+import './a-propos-page.min.css';
 
 function AProposPage() {
     const ficheCollapse1 = [

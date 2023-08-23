@@ -1,5 +1,5 @@
 import InfoProjet from '../../InfoProjet/index';
-import './projet.css';
+import './projet.min.css';
 
 
 function ProjetPage() {

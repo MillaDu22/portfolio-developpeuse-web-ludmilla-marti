@@ -1,4 +1,4 @@
-import "./home.css";
+import "./home.min.css";
 import Banner from "../../Banner/index";
 import Gallerie from "../../Gallerie/index";
 import Features from "../../Features/index";

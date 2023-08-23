@@ -1,4 +1,4 @@
-import './slider.css';
+import './slider.min.css';
 import { useState } from 'react';
 
 function Slider ({images}) {
