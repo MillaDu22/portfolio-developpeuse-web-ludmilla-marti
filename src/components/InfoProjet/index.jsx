@@ -26,18 +26,14 @@ const InfoProjet = () => {
             <div className= 'info-projet-box'>
                 <h2 className ="title">{ ficheProjet?.title }</h2>
                 <div className="display-row">
-                <Slider images = {ficheProjet?.photos}/>
-                <div className="info-projet">
-                <div className=" container-mots-cles">{TagsProjets}</div>
-                    <span className="back-info-projet">
-                        <span className="txt-info-projet">{ficheProjet?.description}</span>
-                    </span>
-                    <div className=" container-liens">{CodesProjets}{SitesProjets}</div> 
-                    {/*<ul className="liens-list"> 
-                        <li className="lien"><a className="lien-a" href={ficheProjet?.liens}>Voir le code du projet</a></li>
-                        <li className="lien"><a className="lien-a" href={ficheProjet?.site}>Visiter le site</a></li>
-                    </ul>*/}
-                </div>
+                    <Slider images = {ficheProjet?.photos}/>
+                    <div className="info-projet">
+                        <div className=" container-mots-cles">{TagsProjets}</div>
+                        <span className="back-info-projet">
+                            <span className="txt-info-projet">{ficheProjet?.description}</span>
+                        </span>
+                        <div className=" container-liens">{CodesProjets}{SitesProjets}</div> 
+                    </div>
                 </div>
             </div>
             ) : <Navigate replace to = "/Error" />

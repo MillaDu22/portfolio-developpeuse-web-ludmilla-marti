@@ -67,7 +67,7 @@ const CvPage =() => {
                 <h2 className="formations">FORMATIONS</h2>
                 <h3 className="h3-section-form">- OPENCLASSROOMS (à distance) Intégrateur-web (en cours) 2022 - 2023.</h3>
                 <h3 className="h3-section-form">- SECURITAS, BREST (29) ACVS (Agent Chargé des Visites de Sûreté), Sûreté portuaire - 2018 .</h3>
-                <h3 className="h3-section-form">- SECURITAS ORVAULT 44) EPI (Equipier de Première Intervention) Incendie - 2010 .</h3>
+                <h3 className="h3-section-form">- SECURITAS ORVAULT (44) EPI (Equipier de Première Intervention) Incendie - 2010 .</h3>
                 <h3 className="h3-section-form">- LIGNES ET FORMATIONS (distanciel).MONTROUGE Niveau BEP Photographie - 2015 à 2016 .</h3>
                 <h3 className="h3-section-form">- CREFOPS PARIS (75) SST (Sauveteur Secouriste du Travail) Assistance à personnes - 05/2000 - 05/2000 puis à jour.</h3>
                 <h3 className="h3-section-form">- CREFOPS PARIS (75) SSIAP (Sécurité Incendie & d’Assistance à personne) Incendie - 04/2000 .</h3>

@@ -103,7 +103,7 @@ function AProposPage() {
                 {"id": "14", "url": "https://openclassrooms.com/fr/course-certificates/8325307532"},
                 {"id": "15", "url": "https://openclassrooms.com/fr/course-certificates/9973355833"},
                 {"id": "16", "url": "https://openclassrooms.com/fr/course-certificates/6277851977"},
-                {"id": "17", "url": "https://openclassrooms.com/fr/course-certificates/6277851977"}
+                {"id": "17", "url": "https://openclassrooms.com/fr/course-certificates/5766575595"}
             ],
             "tousCertificats": [
                 {"id": "18", "description": " Tous les certificats/linkedin."}
