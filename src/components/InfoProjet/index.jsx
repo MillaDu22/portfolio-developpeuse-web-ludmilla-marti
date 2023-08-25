@@ -1,5 +1,5 @@
 import { Navigate} from 'react-router-dom';
-import '../InfoProjet/infoProjet.min.css';
+import '../InfoProjet/infoProjet.css';
 import {useParams} from "react-router-dom";
 import datasProjets from '../Datas-projets/datas-projets.json';
 import Tag from '../Tag/index';

@@ -19,7 +19,7 @@
 }
 .title-banniere {
     font-family:"Cormorant";
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 .txt-banniere {
@@ -30,7 +30,7 @@
     text-align: center;
     width: 50%;
     height: 150px;
-    font-size: 19px;
+    font-size: 22px;
 
 }
 .fa-linkedin {
@@ -55,6 +55,6 @@
         text-align: center;
         padding-left: 4%;
         padding-right: 4%;
-        font-size: 16px;
+        font-size: 19px;
     }
 }

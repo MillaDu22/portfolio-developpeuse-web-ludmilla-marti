@@ -41,6 +41,7 @@
 .txt-welcome, .txt-visit, .welcome {
     position:relative;
     margin: 0px;
+    font-size: 22px;
 }
 @media screen and (max-width:768px) {
     .banner {
@@ -54,5 +55,6 @@
     }
     .welcome, .txt-visit, .txt-welcome{
         text-align: center;
+        font-size: 19px;
     }
 }

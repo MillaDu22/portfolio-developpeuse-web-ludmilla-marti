@@ -1,5 +1,5 @@
 import React from "react";
-import "./tag.min.css";
+import "./tag.css";
 
 function Tags ({title}) {
     return(

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./gallerie.min.css";
+import "./gallerie.css";
 import Card from "../Card/index";
 import datasProjets from '../Datas-projets/datas-projets.json';
 

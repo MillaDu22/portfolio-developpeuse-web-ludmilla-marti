@@ -10,6 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+    margin-top:100px;
     margin-left:auto;
     margin-right: auto;
     width:59%;
@@ -104,7 +105,7 @@
 .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
     width:94%;
     font-family: 'Cormorant';
-    font-size:15px;
+    font-size:19px;
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -117,14 +118,15 @@
 
 .h2-profil {
     position:relative;
-    margin-bottom: 6px;
+    margin-bottom: 26px;
     font-family: 'Cormorant';
-    font-size:18px;
+    font-size:19px;
     text-decoration: underline;
 }
 .p-profile {
     position:relative;
     margin-top:0px;
+    font-size: 19px;
 }
 .separate {
     width:100%;
@@ -144,15 +146,17 @@
     width:69%;
     font-family: 'Cormorant';
     text-align: left;
-    font-size: 15px;
-    padding-bottom: 60px;
+    /*font-size: 15px;*/
+    padding-bottom: 160px;
 }
 .parcours, .formations {
     position:relative;
-    margin-bottom: 3px;
+    margin-top: 16px;
+    margin-bottom: 23px;
     text-decoration: underline;
     font-family: 'Cormorant';
     font-size: 18px;
+    line-height: 18px;
 }
 .h3-section-cv {
     position: relative;
@@ -168,7 +172,8 @@
     position: relative;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 19px;
+    line-height: 19px;
 }
 .h3-section-form {
     position: relative;
@@ -176,9 +181,9 @@
     margin-bottom: 2%;
     font-family: 'Cormorant';
     color: green;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 200;
-    line-height:15px;
+    line-height:19px;
 }
 
 @media screen and (max-width:768px) {
@@ -217,7 +222,7 @@
         line-height: 21px;
     }
     .age, .fonction {
-        font-size: 15px;
+        font-size: 17px;
         line-height: 15px;
     }
     .aside {
@@ -230,7 +235,7 @@
         text-align: center;
     }
     .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
-        font-size:15px;
+        font-size:17px;
         text-align: center;
         margin-top: 0%;
         margin-bottom: 0%;
@@ -248,15 +253,15 @@
         font-size: 18px;
     }
     .info-parcours{
-        font-size: 15px;
+        font-size: 17px;
     }
     .h3-section-cv {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 100;
-        line-height:15px;
+        line-height:17px;
     }
     .h3-section-form {
-        font-size: 15px;
-        line-height:15px;
+        font-size: 17px;
+        line-height:17px;
     }
 }

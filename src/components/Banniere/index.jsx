@@ -1,4 +1,4 @@
-import "./banniere.min.css";
+import "./banniere.css";
 
 
 function Banniere () {
