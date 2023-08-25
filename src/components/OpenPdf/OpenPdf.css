@@ -1,0 +1,26 @@
+.container-buttons {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.pdf-button {
+    font-family: "Cormorant";
+    background: rgba(128, 0, 128, 0.733);
+    color:white;
+    font-size:20px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    padding:6px;
+}
+.pdf-button:hover {
+    background-color: black;
+}
+@media screen and (max-width:768px){
+    .pdf-button {
+        font-size:15px;
+    }
+}

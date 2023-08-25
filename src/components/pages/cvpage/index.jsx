@@ -1,6 +1,7 @@
 import React from 'react';
-import "./cvpage.min.css";
+import "./cvpage.css";
 import Tof from "../../../assets/img/FB_IMG_1690363536869.webp";
+import OpenPdf from "../../OpenPdf/index"
 
 
 const CvPage =() => {
@@ -74,6 +75,7 @@ const CvPage =() => {
                     <h3 className="h3-section-form">- Lycée polyvalent CHERIOUX . VITRY SUR SEINE (94) CAPA, BEPA, Paysagiste - 06/1995 .</h3>
                 </div>
             </div>
+            <OpenPdf/>
         </div>
     )
 }

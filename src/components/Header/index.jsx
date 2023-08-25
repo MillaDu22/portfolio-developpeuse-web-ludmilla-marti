@@ -7,7 +7,7 @@ function Header() {
     return (
         <header className="header">
             <h1 className= "Titre-app">
-                <Link className="header_link" to="/">Ludmilla Marti - Développeuse Web</Link>
+                <Link className="header_link" to="/cvpage">Ludmilla Marti - Développeuse Web</Link>
             </h1>
             <nav className="nav">
                 <Link className="nav_item1" to="/">

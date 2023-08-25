@@ -3,7 +3,7 @@
     flex-direction: column ;
     justify-content:flex-start;
     width:100%;
-    background: darkgrey;
+    background: lightgrey;
 }
 .tour-cv {
     display: flex;
@@ -75,9 +75,11 @@
     align-items: flex-start;
     font-family: 'Cormorant';
     color:black;
+    margin-bottom:0px;
     background:linear-gradient(45deg, pink,lightgrey);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
+
 .titre-aside {
     width:94%;
     position: relative;
@@ -143,6 +145,7 @@
     font-family: 'Cormorant';
     text-align: left;
     font-size: 15px;
+    padding-bottom: 60px;
 }
 .parcours, .formations {
     position:relative;
