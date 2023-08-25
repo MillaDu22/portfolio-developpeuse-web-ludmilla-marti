@@ -1,9 +1,11 @@
 import React from 'react';
 import Banniere from "../../Banniere/index";
 import Collapse from '../../Collapse/index';
-import './a-propos-page.min.css';
+import SkillBar from '../../SkillBar/index';
+import './a-propos-page.css';
 
 function AProposPage() {
+
     const ficheCollapse1 = [
         {
             "id": "1",
@@ -153,6 +155,13 @@ function AProposPage() {
                     </div>
                 </div>
             </section>
+            <div className="container-skillbar">
+                <h3>Moyennes d'utilisation des technologies</h3>
+                <SkillBar skillName="HTML" percentage={23.25} />
+                <SkillBar skillName="CSS" percentage={29.4} />
+                <SkillBar skillName="Sass" percentage={7.63} />
+                <SkillBar skillName="JavaScript" percentage={30.04} />
+            </div>
         </div>
     )
 }
