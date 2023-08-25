@@ -42,7 +42,7 @@ function AProposPage() {
         <div className="nav" key={projet.id}>
             <ul className="projets">
                 <li className="projet">{projet.description}
-                    <a href={ficheCollapse1[0]?.liens.find((lien) => lien.id === projet.id)?.url} className="Lien-collapse" aria-label="lien-site">Voir le site.</a>
+                    <a href={ficheCollapse1[0]?.liens.find((lien) => lien.id === projet.id)?.url} className="Lien-collapse" aria-label="lien-site" target="blank">Voir le site.</a>
                 </li>
             </ul>
         </div>
@@ -51,7 +51,7 @@ function AProposPage() {
         <div className="nav" key={projet.id}>
             <ul className="projets">
                 <li className="projet">{projet.description}
-                    <a href={ficheCollapse1[0]?.liensCode.find((lien) => lien.id === projet.id)?.url} className="Lien-collapse" aria-label="lien-code">Voir le code.</a>
+                    <a href={ficheCollapse1[0]?.liensCode.find((lien) => lien.id === projet.id)?.url} className="Lien-collapse" aria-label="lien-code" target="blank">Voir le code.</a>
                 </li>
             </ul>
         </div>
@@ -117,7 +117,7 @@ function AProposPage() {
         <div className="nav" key={certificat.id}>
             <ul className="projets">
                 <li className="projet">{certificat.description}
-                    <a href={ficheCollapse2[0]?.liens.find((lien) => lien.id === certificat.id)?.url} className="Lien-collapse" aria-label="certificat">Certificat.</a>
+                    <a href={ficheCollapse2[0]?.liens.find((lien) => lien.id === certificat.id)?.url} className="Lien-collapse" aria-label="certificat" target="blank">Certificat.</a>
                 </li>
             </ul>
         </div>
@@ -127,7 +127,7 @@ function AProposPage() {
         <div className="nav" key={touscertificat.id}>
             <ul className="projets">
                 <li className="projet">{touscertificat.description}
-                    <a href={ficheCollapse2[0]?.liensTous.find((lientous) => lientous.id === touscertificat.id)?.url} className="Lien-collapse" aria-label="lien-tous-les-certificats">Certificats/Linkedin.</a>
+                    <a href={ficheCollapse2[0]?.liensTous.find((lientous) => lientous.id === touscertificat.id)?.url} className="Lien-collapse" aria-label="lien-tous-les-certificats" target="blank">Certificats/Linkedin.</a>
                 </li>
             </ul>
         </div>

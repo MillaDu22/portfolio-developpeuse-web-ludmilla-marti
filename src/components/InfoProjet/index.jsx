@@ -17,9 +17,12 @@ const InfoProjet = () => {
     const CodesProjets = ficheProjet?.code.map ((code, index) => {
         return <LienCode key = {index} title = {code} />
     });
-    const SitesProjets = ficheProjet?.site.map ((site, index) => {
-        return <LienSite key = {index} title = {site} />
-    });
+    let SitesProjets = null;
+    if (ficheProjet.site && ficheProjet.site.length > 0) {
+        SitesProjets = ficheProjet.site.map((site, index) => {
+            return <LienSite key={index} title={site} />
+        });
+    };
     return (
         <>
         {ficheProjet ? (

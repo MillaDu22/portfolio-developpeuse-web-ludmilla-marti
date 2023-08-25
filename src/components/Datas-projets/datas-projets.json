@@ -40,7 +40,7 @@
 		"informations": "Création d'une page web dynamique avec JavaScript... Lire +.",
 		"description": "Création de la page web dynamique de l'architecte avec JavaScript. Récupération des travaux sur l'API et mise en place d'une modale d'ajout et de supression des projets. Filtrage de la gallerie par catégories de travaux.",
 		"code": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
-		"site": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
+
 		"Tags": ["Html5", "Css3", "JavaScript"],
 		"alt": "photo site architecte Sophie Bluel",
 		"cover": "https://i.ibb.co/BBnpTVf/Cover-Sophie-Bluel.webp",
@@ -94,7 +94,6 @@
 		"informations": "Implémentation du front-end d'une application bancaire avec React... Lire +.",
 		"description": "Implémentation du front-end d'une application bancaire avec React. Mise en place du tableau de bord des utilisateurs. Projet de base en Html & Css repris avec React. En phase 1, l'authentification et la possibilité de gerer le profil par l'utilisateur. Et en phase 2, la rédaction de la documentation transactions décrivant les routes API en suivant les directives Swagger.",
 		"code": ["https://github.com/MillaDu22/ArgentBank-website"],
-		"site": ["https://github.com/MillaDu22/ArgentBank-website"],
 		"Tags": [" React", "React-Redux", "React-Router"],
 		"alt": "Photo site Argent Bank",
 		"cover": "https://i.ibb.co/ZdBV4jq/Cover-Argent-Bank.webp",
