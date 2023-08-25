@@ -1,5 +1,7 @@
 .projet-page{
     background:url("../../../assets/img/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
     justify-content: center;

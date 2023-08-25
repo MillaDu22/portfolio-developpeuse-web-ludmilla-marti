@@ -64,9 +64,9 @@
     position: relative;
     margin-top: 8px;
     margin-bottom: 7px;
-    height: 18px;
-    font-size: 18px;
-    line-height: 18px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
 }
 .aside {
     width:22%;
@@ -79,6 +79,9 @@
     margin-bottom:0px;
     background:linear-gradient(45deg, pink,lightgrey);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
 }
 
 .titre-aside {
@@ -88,9 +91,13 @@
     margin-bottom:20px;
     margin-left: auto ;
     margin-right: auto ;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 20px;
+    font-weight:700;
+    line-height: 20px;
     text-transform: uppercase;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
 }
 .separation {
     position:relative;
@@ -105,12 +112,16 @@
 .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
     width:94%;
     font-family: 'Cormorant';
-    font-size:19px;
+    font-size:20px;
+    font-weight: 600;
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 2%;
     padding:0px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
 }
 .adress-ville{
     text-transform: uppercase;
@@ -120,13 +131,15 @@
     position:relative;
     margin-bottom: 26px;
     font-family: 'Cormorant';
-    font-size:19px;
+    font-size:20px;
+    font-weight:700;
     text-decoration: underline;
 }
 .p-profile {
     position:relative;
     margin-top:0px;
-    font-size: 19px;
+    font-size: 20px;
+    font-weight:600;
 }
 .separate {
     width:100%;
@@ -155,8 +168,9 @@
     margin-bottom: 23px;
     text-decoration: underline;
     font-family: 'Cormorant';
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
 }
 .h3-section-cv {
     position: relative;
@@ -164,16 +178,17 @@
     margin-bottom: 2%;
     font-family: 'Cormorant';
     color:blue;
-    font-size: 18px;
-    font-weight: 200;
-    line-height:15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height:20px;
 }
 .info-parcours {
     position: relative;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
 }
 .h3-section-form {
     position: relative;
@@ -181,9 +196,9 @@
     margin-bottom: 2%;
     font-family: 'Cormorant';
     color: green;
-    font-size: 19px;
-    font-weight: 200;
-    line-height:19px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height:20px;
 }
 
 @media screen and (max-width:768px) {
@@ -235,7 +250,7 @@
         text-align: center;
     }
     .adress-rue, .adress-ville, .tel, .email, .competences, .langues{
-        font-size:17px;
+        font-size:18px;
         text-align: center;
         margin-top: 0%;
         margin-bottom: 0%;
@@ -253,15 +268,15 @@
         font-size: 18px;
     }
     .info-parcours{
-        font-size: 17px;
+        font-size: 18px;
     }
     .h3-section-cv {
-        font-size: 17px;
+        font-size: 18px;
         font-weight: 100;
-        line-height:17px;
+        line-height:18px;
     }
     .h3-section-form {
-        font-size: 17px;
-        line-height:17px;
+        font-size: 18px;
+        line-height:18px;
     }
 }
