@@ -9,7 +9,7 @@ function Header() {
             <h1 className= "Titre-app">
                 <Link className="header_link" to="/cvpage">Ludmilla Marti - Développeuse Web</Link>
             </h1>
-            <nav className="nav">
+            <nav className="nav-header">
                 <Link className="nav_item1" to="/">
                     <p className="nav_item_text1">Accueil</p>
                 </Link>

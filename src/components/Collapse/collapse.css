@@ -130,6 +130,7 @@
   .labelTitleInfo {
     font-size: 18px;
     line-height: 18.5px;
+    width:89%
   }
   .projet, .certification {
     font-size: 17px;
@@ -142,5 +143,8 @@
     margin-left: -5%;
     margin-top:0;
     margin-bottom: 0;
+  }
+  .chevron-up, .chevron-down {
+    left:10px;
   }
 }

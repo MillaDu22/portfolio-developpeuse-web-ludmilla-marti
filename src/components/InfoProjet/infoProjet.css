@@ -117,6 +117,28 @@
     text-decoration: underline;
     color:black;
 }
+.titre-circle-skill-box {
+    text-align:center;
+    position: relative;
+    margin-top: 150px;
+}
+
+.container-circle-skill {
+    width:90%;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    border-radius:0px 10px 0px 10px;
+}
+.titre-langage {
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
     .info-projet-box { 
         padding-left: 0%;

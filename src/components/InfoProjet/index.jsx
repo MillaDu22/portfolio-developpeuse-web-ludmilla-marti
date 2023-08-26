@@ -6,6 +6,9 @@ import Tag from '../Tag/index';
 import Slider from '../../components/Slider/index';
 import LienCode from "../LienCode/index";
 import LienSite from "../LienSite/index";
+import CircleSkillHtml from "../CircleSkillHtml/indexHtml";
+import CircleSkillCss from "../CircleSkillCss/indexCss";
+import CircleSkillJs from '../CircleSkillJs/indexJs';
 
 
 const InfoProjet = () => {
@@ -23,6 +26,7 @@ const InfoProjet = () => {
             return <LienSite key={index} title={site} />
         });
     };
+
     return (
         <>
         {ficheProjet ? (
@@ -37,6 +41,15 @@ const InfoProjet = () => {
                         </span>
                         <div className=" container-liens">{CodesProjets}{SitesProjets}</div> 
                     </div>
+                </div>
+                <h3 className="titre-circle-skill-box">Niveaux d'utilisation des technologies sur ce projet</h3>
+                <div className= "container-circle-skill">
+                    <CircleSkillHtml 
+                        percentage= {ficheProjet?.html}/>
+                    <CircleSkillCss 
+                        percentage= {ficheProjet?.css}/>
+                    <CircleSkillJs 
+                        percentage= {ficheProjet?.js}/>
                 </div>
             </div>
             ) : <Navigate replace to = "/Error" />

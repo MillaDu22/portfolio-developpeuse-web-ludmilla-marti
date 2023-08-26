@@ -12,10 +12,10 @@ const Collapse =({ id, title, content, content1}) => {
             <div className="wrapInfo vrap" >
                 <input type="checkbox" aria-checked="mixed" tabIndex="0" id = {id} className="toggleInfo" aria-labelledby= {id} aria-describedby= {id}/>
                 <label htmlFor= {id} className="labelToggleInfo">
-                    <p className=" labelTitleInfo" onClick ={display}>{title}
+                    <h3 className=" labelTitleInfo" onClick ={display}>{title}
                         {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
                         (<img src={chevron} className="chevron-down"alt="down"/>)}
-                    </p>
+                    </h3>
                 </label>
                 <div className ="textInfo">
                     <div className="text-inner-info">

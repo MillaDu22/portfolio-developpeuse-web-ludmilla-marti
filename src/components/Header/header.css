@@ -31,15 +31,14 @@
 .header_link:hover {
     color:lightgrey;
 }
-.nav {
+.nav-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width:29%;
 }
-* {
-    border:1px solid transparent;
-}
+
 .nav_item1, .nav_item2, .nav_item3 {
     position:relative;
     text-decoration: none;
@@ -49,13 +48,14 @@
 }
 .nav_item2 {
     width:58%;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 .nav_item1 {
     position:relative;
     width: 33%;
-    margin-right: 20px;
+    margin-right: 5px;
 }
+*
 .nav_item1:hover, .nav_item2:hover, .nav_item3:hover {
     text-decoration: underline black;
 }
@@ -63,7 +63,7 @@
     font-family: "Cormorant";
     color:black;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     width:100%;
     text-align: center;
 }
@@ -87,6 +87,9 @@
     .titre-app {
         height:30px;
         width:100%;
+    }
+    .nav-header {
+        width: 90%;
     }
     .nav_item_text2, .nav_item_text1, .nav_item_text3 {
         color:white;
