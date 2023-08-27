@@ -23,10 +23,10 @@
     text-decoration: none;
     text-align: center;
     font-family: "Tangerine";
-    line-height:30px;
+    line-height:40px;
     font-weight: 700;
     color:white;
-    font-size:30px;
+    font-size:40px;
 }
 .header_link:hover {
     color:lightgrey;
@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width:29%;
 }
 
@@ -47,7 +47,7 @@
     width:20%;
 }
 .nav_item2 {
-    width:58%;
+    width:38%;
     margin-right: 5px;
 }
 .nav_item1 {
@@ -55,9 +55,10 @@
     width: 33%;
     margin-right: 5px;
 }
-*
+
 .nav_item1:hover, .nav_item2:hover, .nav_item3:hover {
     text-decoration: underline black;
+
 }
 .nav_item_text2, .nav_item_text1, .nav_item_text3 {
     font-family: "Cormorant";
@@ -81,7 +82,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
     .titre-app {
@@ -93,6 +94,9 @@
     }
     .nav_item_text2, .nav_item_text1, .nav_item_text3 {
         color:white;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
     }
 }
 

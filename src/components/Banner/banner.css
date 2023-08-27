@@ -10,7 +10,7 @@
     position:relative;
     left:0px;
     width:80%;
-    height:200px;
+    height:250px;
     overflow: hidden;
     border-radius: 5px;
     overflow: hidden;
@@ -46,7 +46,7 @@
 @media screen and (max-width:768px) {
     .banner {
         flex-direction:column;
-        height:500px;
+        min-height:600px;
         width:100%;
         padding-top: 10%;
         position: relative;

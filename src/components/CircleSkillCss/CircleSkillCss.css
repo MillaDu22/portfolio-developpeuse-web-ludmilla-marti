@@ -24,7 +24,8 @@
 
 .percentage-text {
     position: relative;
-    margin-top: 40%;
+    top: 50%;
+    left: 50%;
     font-size: 24px;
     font-family: 'Cormorant';
     font-weight: bold;
@@ -38,4 +39,5 @@
     transform: scale(1.1); /* Effet de zoom au survol*/
     opacity: 0.8; /* Réduction de l'opacité au survol*/
 }
+
 

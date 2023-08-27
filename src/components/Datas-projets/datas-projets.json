@@ -42,7 +42,7 @@
 	{
 		"id": "3",
 		"data": "javascript",
-		"title": "Architecte Sophie Bluel",
+		"title": "S.Bluel",
 		"informations": "Création d'une page web dynamique avec JavaScript... Lire +.",
 		"description": "Création de la page web dynamique de l'architecte avec JavaScript. Récupération des travaux sur l'API et mise en place d'une modale d'ajout et de supression des projets. Filtrage de la gallerie par catégories de travaux.",
 		"code": ["https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"],
@@ -62,7 +62,7 @@
 	},
 	{
 		"id": "4",
-		"title": "Photographe Nina Carducci",
+		"title": "N.Carducci",
 		"informations": "Optimisez le référencement d'un site de photographe... Lire +.",
 		"description": "Optimisez le référencement d'un site de photographe. Réalisation d'audit avant et après optimisation. Réalisation d'un rapport d'optimisation. Augmenter les performances, l'accessibilité, et le SEO. Augmenter la visibilité du site sur les réseaux sociaux et mettre en place un réferencement local.",
 		"code": ["https://github.com/MillaDu22/nina-carducci"],

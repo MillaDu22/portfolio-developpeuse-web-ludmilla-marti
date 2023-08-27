@@ -88,6 +88,9 @@
         height:200px;
         box-sizing: border-box;
         overflow: hidden;
+        box-shadow: none;
+        border-left:none;
+        border-right:none;
     }
     .slides {
         width:100%;

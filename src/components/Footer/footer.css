@@ -20,11 +20,12 @@
 .link-page {
     font-family: "Tangerine";
     font-weight: 700;
+    font-size: 40px;
 }
 .mailto{
     font-family: "Cormorant";
-    font-weight: 100;
-    font-size:18px;
+    font-weight: 400;
+    font-size:25px;
     position:relative;
     margin-top:10px;
 }

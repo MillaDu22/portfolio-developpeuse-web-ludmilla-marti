@@ -72,6 +72,7 @@
   flex-direction: column;
   align-items: left;
   max-height:2000px;
+  margin-right:7%;
 }
 .projets, .certifications, a {
   padding-top: 0px;
@@ -83,6 +84,9 @@
   text-align: left;
   margin-top:0;
   margin-bottom: 0;
+}
+.projet, .certification {
+  width:100%;
 }
 .Lien-collapse{
   position: relative;
@@ -143,6 +147,9 @@
     margin-left: -5%;
     margin-top:0;
     margin-bottom: 0;
+  }
+  .Lien-collapse {
+    font-size: 18px;
   }
   .chevron-up, .chevron-down {
     left:10px;

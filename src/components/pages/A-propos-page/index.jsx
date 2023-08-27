@@ -129,7 +129,7 @@ function AProposPage() {
         <div className="nav" key={touscertificat.id}>
             <ul className="projets">
                 <li className="projet">{touscertificat.description}
-                    <a href={ficheCollapse2[0]?.liensTous.find((lientous) => lientous.id === touscertificat.id)?.url} className="Lien-collapse" aria-label="lien-tous-les-certificats" target="blank">Certificats/Linkedin.</a>
+                    <a href={ficheCollapse2[0]?.liensTous.find((lientous) => lientous.id === touscertificat.id)?.url} className="Lien-collapse" aria-label="lien-tous-les-certificats" target="blank">Certificats</a>
                 </li>
             </ul>
         </div>
@@ -156,9 +156,9 @@ function AProposPage() {
                 </div>
             </section>
             <div className="container-skillbar">
-                <h3>Moyennes d'utilisation des technologies</h3>
-                <SkillBar skillName="HTML" percentage={23.25} />
-                <SkillBar skillName="CSS" percentage={29.4} />
+                <h3 className= "titre-bar-moyennes">Moyennes d'utilisation des technologies sur l'ensemble des projets</h3>
+                <SkillBar skillName="HTML" percentage={28.09} />
+                <SkillBar skillName="CSS" percentage={34.24} />
                 <SkillBar skillName="Sass" percentage={7.63} />
                 <SkillBar skillName="JavaScript" percentage={30.04} />
             </div>

@@ -19,13 +19,19 @@
     right:10%;
     overflow: hidden;
 }
-
+.nav {
+    padding-right:7px;
+}
 .projets {
     width:100%;
 }
 .projet {
     width:100%;
     line-height: 34px;
+}
+.titre-bar-moyennes {
+    font-family:"Cormorant";
+    font-size: 25px;
 }
 .container-skillbar {
     display:flex;
@@ -62,6 +68,9 @@
         margin-left:-3% ;
         margin-right: 3%;
     
+    }
+    .titre-bar-moyennes {
+        font-size:17px;
     }
     .container-skillbar {
         padding-top: 1%;
