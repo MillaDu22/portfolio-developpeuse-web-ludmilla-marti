@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.5c8c29d1.css",
+    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.3a4de52b.css",
     "main.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.bd253c50.js",
     "static/js/787.00b4f875.chunk.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js",
     "static/media/Cv.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/Cv.d364ddd046d003262660.webp",
@@ -8,12 +8,12 @@
     "static/media/FB_IMG_1690363536869.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/FB_IMG_1690363536869.91ef79723d60e8dfc21a.webp",
     "index.html": "/portfolio-developpeuse-web-ludmilla-marti/index.html",
     "static/media/chevron.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/chevron.a38c37cf785688867be6.webp",
-    "main.5c8c29d1.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.5c8c29d1.css.map",
+    "main.3a4de52b.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.3a4de52b.css.map",
     "main.bd253c50.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.bd253c50.js.map",
     "787.00b4f875.chunk.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c8c29d1.css",
+    "static/css/main.3a4de52b.css",
     "static/js/main.bd253c50.js"
   ]
 }
