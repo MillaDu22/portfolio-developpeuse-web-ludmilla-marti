@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.e0d4c625.css",
-    "main.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.54cbc5dc.js",
+    "main.css": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.e32e6b0d.css",
+    "main.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.bd253c50.js",
     "static/js/787.00b4f875.chunk.js": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js",
+    "static/media/Cv.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/Cv.d364ddd046d003262660.webp",
     "static/media/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/vecteezy_abstract-white-line-background-wall-vector-illustration_7696726.c76af86eb63468205692.webp",
     "static/media/FB_IMG_1690363536869.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/FB_IMG_1690363536869.91ef79723d60e8dfc21a.webp",
     "index.html": "/portfolio-developpeuse-web-ludmilla-marti/index.html",
     "static/media/chevron.webp": "/portfolio-developpeuse-web-ludmilla-marti/static/media/chevron.a38c37cf785688867be6.webp",
-    "main.e0d4c625.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.e0d4c625.css.map",
-    "main.54cbc5dc.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.54cbc5dc.js.map",
+    "main.e32e6b0d.css.map": "/portfolio-developpeuse-web-ludmilla-marti/static/css/main.e32e6b0d.css.map",
+    "main.bd253c50.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/main.bd253c50.js.map",
     "787.00b4f875.chunk.js.map": "/portfolio-developpeuse-web-ludmilla-marti/static/js/787.00b4f875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d4c625.css",
-    "static/js/main.54cbc5dc.js"
+    "static/css/main.e32e6b0d.css",
+    "static/js/main.bd253c50.js"
   ]
 }
