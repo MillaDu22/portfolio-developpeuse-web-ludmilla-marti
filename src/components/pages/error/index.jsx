@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import './error.css';
 
-class Error extends Component {
-    render() {
+function Error () {
         return (
             <div className="error_wrapper">
                 <h1 className="error_number">404</h1>
@@ -13,5 +12,4 @@ class Error extends Component {
             </div>
         );
     }
-}
 export default Error;

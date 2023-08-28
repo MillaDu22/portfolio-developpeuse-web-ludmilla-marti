@@ -1,4 +1,5 @@
-import { Navigate} from 'react-router-dom';
+import { useEffect } from 'react';
+import { Navigate, useNavigate} from 'react-router-dom';
 import '../InfoProjet/infoProjet.css';
 import {useParams} from "react-router-dom";
 import datasProjets from '../Datas-projets/datas-projets.json';
@@ -12,20 +13,26 @@ import CircleSkillJs from '../CircleSkillJs/indexJs';
 
 
 const InfoProjet = () => {
+    const navigate = useNavigate();
     const id = useParams(); 
     const ficheProjet = datasProjets.find ((datasprojet) => datasprojet.id === id.id);
+
+    useEffect(() => {
+        if (!ficheProjet) {
+            // Si le projet pas trouvé, redirige vers la page d'erreur après le rendu initial
+            navigate('/error');
+        }
+    }, [ficheProjet, navigate]);
+
     const TagsProjets = ficheProjet?.Tags.map ((Tags, index) => {
         return <Tag key = {index} title = {Tags} />
     });
     const CodesProjets = ficheProjet?.code.map ((code, index) => {
         return <LienCode key = {index} title = {code} />
     });
-    let SitesProjets = null;
-    if (ficheProjet.site && ficheProjet.site.length > 0) {
-        SitesProjets = ficheProjet.site.map((site, index) => {
-            return <LienSite key={index} title={site} />
+    const SitesProjets = ficheProjet?.site?.map((site, index) => {
+        return <LienSite key={index} title={site} />;
         });
-    };
 
     return (
         <>
@@ -52,8 +59,8 @@ const InfoProjet = () => {
                         percentage= {ficheProjet?.js}/>
                 </div>
             </div>
-            ) : <Navigate replace to = "/Error" />
-        }
+            ) : (<Navigate replace to ='../pages/error/index.jsx' />
+            )}
         </>
     );
 };
