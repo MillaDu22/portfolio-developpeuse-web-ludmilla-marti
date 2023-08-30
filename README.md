@@ -6,7 +6,7 @@
 - React-Router v6.14.1
 - sass v1.64.1
 ## Instructions
-- Installation
-		 npm install
-- Lancement de l'application
-		 npm run start
+- Installation: 
+	'npm install'
+- Lancement de l'application: 
+	'npm run start'
