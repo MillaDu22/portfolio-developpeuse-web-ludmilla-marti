@@ -6,7 +6,7 @@ import datasProjets from '../Datas-projets/datas-projets.json';
 function Gallerie () {
     return (
         <section className="gallery">
-            <h2 className="titre-gallery">Ma gallerie</h2>
+            <h2 className="titre-gallery">Ma galerie</h2>
                 <div className="galleryCard">{datasProjets.map(datasProjet => {
                     return (
                         <Card 

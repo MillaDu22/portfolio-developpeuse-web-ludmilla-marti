@@ -12,7 +12,7 @@ function Banner () {
                 <p className= "txt-welcome">Après 23 années passées dans le domaine de la sécurité privée,
                     J'ai choisi de me reconvertir, par passion, dans le secteur du développement web.
                 </p>
-                <p className="txt-visit">Vous pouvez consultez quelques projets réalisés durant mon parcours Openclassrooms. </p>
+                <p className="txt-visit">Vous pouvez consulter quelques projets réalisés durant mon parcours Openclassrooms. </p>
             </div>
         </div>
     )
