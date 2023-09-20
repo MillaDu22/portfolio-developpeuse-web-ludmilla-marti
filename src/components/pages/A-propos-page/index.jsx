@@ -30,7 +30,7 @@ function AProposPage() {
                 {"id": "5", "url": "https://milladu22.github.io/nina-carducci/"}
             ],
             "liensCode": [
-                {"id": "6", "url": "https://github.com/MillaDu22/booki-"},
+                {"id": "6", "url": "https://github.com/MillaDu22/Booki"},
                 {"id": "7", "url": "https://github.com/MillaDu22/Portfolio-Architecte-Sophie-Bruel"},
                 {"id": "8", "url": "https://github.com/MillaDu22/724events"},
                 {"id": "9", "url": "https://github.com/MillaDu22/ArgentBank-website"}
