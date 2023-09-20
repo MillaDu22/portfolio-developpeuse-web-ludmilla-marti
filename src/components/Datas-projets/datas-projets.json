@@ -6,7 +6,8 @@
 		"informations": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS... Lire +.",
 		"Tags": ["Html5", "Css3"],
 		"description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS. En version desktop, tablette et mobile, à partir de maquettes figma fournies par le designer.",
-		"code": ["https://github.com/MillaDu22/booki-"],
+		"code": ["https://github.com/MillaDu22/Booki"],
+		"site": ["https://milladu22.github.io/Booki/"],
 		"alt": "Photo site Booki",
 		"cover":  "https://i.ibb.co/4ZxXGmf/Cover-Booki.webp",
 		"photos": [
